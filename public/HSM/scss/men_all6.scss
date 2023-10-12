@@ -1,0 +1,703 @@
+#wrap{
+    width: 100%;
+    #menall6 {
+        .container{
+            width: 100%;
+            max-width: 1903px;
+            padding: 109px 0 9px 0;
+            .gap{
+                padding: 0 40px 100px 40px;
+                .title{
+                    padding: 9px 0;
+                    display: flex;
+                    .left-box{
+                        margin: 0 0 0 10px;
+                        width: 100%;
+                        max-width: 230px;
+                        display: flex;
+                        ul{
+                            width: 100%;
+                            display: flex;
+                            li{
+                                display: flex;
+                                h1{
+                                    margin: 0 0 0 10px;
+                                    font-size: 28px;
+                                    font-weight: 700;
+                                    line-height: 42px;
+                                    color: #000;
+                                
+                                }
+                                h3{
+                                    display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+                                    width: 100%;
+                                        img{
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+                                            width: 15%;
+                                            margin: 0 15px;
+                                        }
+                                }
+    
+                                h2{
+                                      font-size: 28px;
+                                    font-weight: 700;
+                                    line-height: 42px;
+                                    color: #000;
+                                }
+                            }
+                        }
+                    }
+                    .center-box{
+                        width: 100%;
+                        display: flex;
+                        margin: 0 0 0 20px;
+                        ul{
+                            width: 100%;
+                            display: flex;
+                            // padding: 15px 0 0 0;
+                            justify-content: left;
+                            text-align: center;
+
+                            align-items: center;
+                            li{
+                               margin: 0 0 0 65px;
+                                h4{
+                                    display: flex;
+                                    font-size: 17px;
+                                    color: #000;
+                                    line-height: 18px;
+                                    align-items: center;
+                                    cursor: pointer;
+                                    
+                                }
+                                i{
+                                    display: inline-block;
+                                    width: 100%;
+                                    // margin: 0 15px;
+                                    position: relative;
+                                    padding: 0 20px 0 0 ;
+                                    &::before{
+                                        content:'';
+                                        position: absolute;
+                                        left: -10px;
+                                        top: 20%;
+                                        margin: -0.5px 0 0 0;
+                                        width: 8px;
+                                        height: 2px;
+                                        background: #000;
+                                        cursor: pointer;
+                                    }                           
+                                }
+                                h5{
+                                    font-size: 17px;
+                                    color: #000;
+                                    line-height: 18px;
+                                    align-items: center;
+                                    margin: 0 0 0 -25px;
+                                    cursor: pointer;
+                                }
+                                &:nth-child(3){
+                                    margin: 0 0 0 10px;
+                                    color: #aaa;
+                                }
+                                &:nth-child(2){
+                                    margin: 0 0 0 30px;
+                                }
+                            }
+                        }
+                    }
+                    .right-box{
+                        width: 100%;
+                        max-width: 300px;
+                        display: flex;
+                        ul{
+                            width: 100%;
+                            display: flex;
+                            // padding: 15px 0 0 0;
+                            justify-content: center;
+                            align-items: center;
+                            li{
+                                
+                                select{
+                                    cursor: pointer;
+                                    font-size: 16px;
+                                    justify-content: left;
+                                    border: 0;
+                                    padding: 0 20px 0 0;
+                                    option{
+    
+                                    }
+                                }
+                                
+                            }
+                            .sk{
+                                margin: 0 25px 0 50px ;
+                             
+                            }
+                            .img1{
+                                margin: 0 25px 0 0;
+                                cursor: pointer;
+                            }
+                            .img2{
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+                .content{
+                    display: flex;
+                    .left-option{
+                        padding: 20px 0 0 0;
+                        margin: 20px 0 0 0 ;
+                        .left {
+                            width: 230px;
+                            padding-right: 40px;
+                            position: sticky;  // 스티키 설정
+                            top: 40px;
+                            left: 0;
+                            height: 100vh;
+                            // 수직 스크롤 오버시에 생성
+                            overflow-y:auto;
+                            // 스크롤바 디자인
+                            &::-webkit-scrollbar {
+                                width:3px;
+                            }
+                            &::-webkit-scrollbar-track {
+                                background-color: #ccc;
+                            }
+                            &::-webkit-scrollbar-thumb {
+                                background-color: #000;
+                            }
+                          
+                            .left-content {
+                                .category {
+                                    
+                                    //각 카테고리 박스 안의 있는 버튼
+                                    button {
+                                        width: 100%;
+                                        margin-bottom: 20px;
+                                        border: none;
+                                        background: url('../../img//HSM/men_all/arr_up_bk_9x6.png') no-repeat 100% 50%;
+                                        font-size: 16px;
+                                        font-weight: 700;
+                                        color: #000;
+                                        text-align: left;
+                                        cursor: pointer;
+                                        
+                                    }
+                                    .category1 {
+                                        // margin-top: 30px;
+                                        // padding-top: 30px;
+                                        ul {
+                                            li {
+                                                padding: 15px 0;
+                                                a {
+                                                    font-size: 18px;
+                                                    font-weight: 500;
+                                                }
+                                            }
+                                        }
+                                    }
+                                    // 스포츠
+                                    .category2 {
+                                        margin-top: 30px;
+                                        padding-top: 30px;
+                                        border-top: 1px solid #999;
+                                        >ul {
+                                            >li {
+                                                display: flex;
+                                                justify-content: space-between;
+                                                align-items: center;
+                                                padding: 10px 10px 25px 0;
+                                                h3{
+                                                    cursor: pointer;
+                                                    font-size: 16px;
+                                                    font-weight: 700;
+                                                    line-height: 24px;
+                                                    color: #000;
+                                                }
+                                                img{
+                                                    cursor: pointer;
+                                                    &.on{
+                                                        transform: rotate(-180deg);
+                                                    }
+                                                }
+                                            }
+                                                ul{
+                                                    width: 100%;
+                                                    display: block;
+                                                    &.on{
+                                                        display: none;
+                                                    }
+                                                    li{
+                                                        width: 100%;
+                                                        padding: 10px 0;
+                                                        label {
+                                                            font-size: 16px;
+                                                            input {
+                                                                color: #000;
+                                                                appearance: none;
+                                                                position: relative;
+                                                                cursor: pointer;
+                                                                width: 20px;
+                                                                height: 20px;
+                                                                margin-right: 10px;
+                                                                border: 1px solid #ccc;
+                                                                border-radius: 5px;
+                                                                &:checked {
+                                                                    border: 1px solid #333;
+                                                                    &::before {
+                                                                        content: '';
+                                                                        z-index: 3;
+                                                                        position: absolute;
+                                                                        width: 14px;
+                                                                        height: 14px;
+                                                                        top: 50%;
+                                                                        left: 50%;
+                                                                        transform: translate(-50%, -50%);
+                                                                        background: url('../../img//HSM/men_all/checkbox_on_20x20.png') no-repeat 50% 50%;
+                                                                    }
+                                                                }
+                                                            }   
+                                                        }
+                                                    }
+                                                }
+                                               
+                                            
+                                        }
+                                    }
+                
+                                    //색상
+                                    .category3 {
+                                        margin-top: 30px;
+                                        padding-top: 30px;
+                                        border-top: 1px solid #999;
+                                        ul {
+                                            display: grid;
+                                            grid-template-columns: repeat(6, 1fr);
+                                            row-gap: 10px;
+                                            column-gap: 10px;
+                                            &.on{
+                                                display: none;
+                                            }
+                                            li {
+                                               
+                                                width: 22px;
+                                                height: 22px;
+                                                label {
+                                                    input {
+                                                        position: relative;
+                                                        width: 22px;
+                                                        height: 22px;
+                                                        appearance: none;
+                                                        cursor: pointer;
+                                                        background-size: cover;
+                                                        background: url () no-repeat 50% 50%;
+                                                        &#BEIGE  {background-image: url('../../img/HSM/men_all/BEIGE.png');}
+                                                        &#BLACK  {background-image: url('../../img/HSM/men_all//BLACK.png');}
+                                                        &#BLUE   {background-image: url('../../img/HSM/men_all//BLUE.png');}
+                                                        &#GREEN  {background-image: url('../../img/HSM/men_all//GREEN.png');}
+                                                        &#GREY   {background-image: url('../../img/HSM/men_all//GREY.png');}
+                                                        &#PINK   {background-image: url('../../img/HSM/men_all//PINK.png');}
+                                                        &#RED    {background-image: url('../../img/HSM/men_all//RED.png');}
+                                                        &#WHITE  {background-image: url('../../img/HSM/men_all//WHITE.png');}
+                                                        &#YELLOW {background-image: url('../../img/HSM/men_all//YELLOW.png');}
+                                                        &#ORANGE {background-image: url('../../img/HSM/men_all//ORANGE.png');}
+                                                        &#MIX    {background-image: url('../../img/HSM/men_all//MIX.png');}
+                                                        &#NAVY   {background-image: url('../../img/HSM/men_all//NAVY.png');}
+                                                        &#NEON   {background-image: url('../../img/HSM/men_all//NEON.png');}
+                                                        &:checked {
+                                                            &::before {
+                                                                content: '';
+                                                                z-index: 3;
+                                                                position: absolute;
+                                                                width: 10px;
+                                                                height: 10px;
+                                                                top: 50%;
+                                                                left: 50%;
+                                                                transform: translate(-50%, -50%);
+                                                                background: url('../../img//HSM/men_all/ico_check_wt_12x8.png') no-repeat 50% 50%;
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                    .category4 {
+                                        margin-top: 30px;
+                                        padding-top: 30px;
+                                        border-top: 1px solid #999;
+                                        ul {
+                                            display: grid;
+                                            grid-template-columns: repeat(4, 1fr);
+                                            row-gap: 10px;
+                                            column-gap: 10px;
+                                            &.on{
+                                                display: none;
+                                            }
+                                            li {
+                                                
+                                                label {
+                                                    position: relative;
+                                                    display: flex;
+                                                    align-items: center;
+                                                    
+                                                    width: 43px;
+                                                    height: 50px;
+                                                    input {
+                                                        position: relative;
+                                                        z-index: 2;
+                                                        width: 100%;
+                                                        height: 100%;
+                                                        border: 1px solid #ccc;
+                                                        border-radius: 6px;
+                                                        appearance: none;
+                                                        cursor: pointer;
+                                                        &:checked { 
+                                                            border-color: #333;
+                                                        }
+                                                    }
+                                                    span {
+                                                        position: absolute;
+                                                        z-index: 1;
+                                                        top: 50%;
+                                                        left: 50%;
+                                                        transform: translate(-50%, -50%);
+                                                        font-size: 16px;
+                                                        
+                                                    }
+                                                    
+                                                }
+                                            }
+                                        }
+                                    }
+                                    .category5 {
+                                        margin-top: 30px;
+                                        padding-top: 30px;
+                                        border-top: 1px solid #999;
+                                        ul {
+                                            width: 100%;
+                                            display: block;
+                                            &.on{
+                                                display: none;
+                                            }
+                                            li {
+                                                padding: 10px 0;
+                                                label {
+                                                    font-size: 16px;
+                                                    input {
+                                                        appearance: none;
+                                                        position: relative;
+                                                        cursor: pointer;
+                                                        width: 20px;
+                                                        height: 20px;
+                                                        margin-right: 10px;
+                                                        border: 1px solid #ccc;
+                                                        border-radius: 5px;
+                                                        &:checked {
+                                                            border: 1px solid #333;
+                                                            &::before {
+                                                                content: '';
+                                                                z-index: 3;
+                                                                position: absolute;
+                                                                width: 14px;
+                                                                height: 14px;
+                                                                top: 50%;
+                                                                left: 50%;
+                                                                
+                                                                transform: translate(-50%, -50%);
+                                                                background: url('../../img/HSM/men_all/checkbox_on_20x20.png') no-repeat 50% 50%;
+                                                            }
+                                                        }
+                                                    }   
+                                                }
+                                            }
+                                        }
+                                    }
+                                    // 성별
+                                    .category6 {
+                                        margin: 30px 0 80px 0;
+                                        padding-top: 30px;
+                                        border-top: 1px solid #999;
+                                        >ul {
+                                            >li {
+                                                display: flex;
+                                                justify-content: space-between;
+                                                align-items: center;
+                                                padding: 10px 10px 25px 0;
+                                                h3{
+                                                    cursor: pointer;
+                                                    font-size: 16px;
+                                                    font-weight: 700;
+                                                    line-height: 24px;
+                                                    color: #000;
+                                                }
+                                                img{
+                                                    cursor: pointer;
+                                                    &.on{
+                                                        transform: rotate(-180deg);
+                                                    }
+                                                }
+                                            }
+                                            ul{
+                                                width: 100%;
+                                                display: block;
+                                                &.on{
+                                                    display: none;
+                                                }
+                                                li{
+                                                    padding: 10px 0;
+                                                    label {
+                                                        font-size: 16px;
+                                                        input {
+                                                            appearance: none;
+                                                            position: relative;
+                                                            cursor: pointer;
+                                                            width: 20px;
+                                                            height: 20px;
+                                                            margin-right: 10px;
+                                                            border: 1px solid #ccc;
+                                                            border-radius: 5px;
+                                                            &:checked {
+                                                                border: 1px solid #333;
+                                                                &::before {
+                                                                    content: '';
+                                                                    z-index: 3;
+                                                                    position: absolute;
+                                                                    width: 14px;
+                                                                    height: 14px;
+                                                                    top: 50%;
+                                                                    left: 50%;
+                                                                    
+                                                                    transform: translate(-50%, -50%);
+                                                                    background: url('../../img/HSM/men_all/checkbox_on_20x20.png') no-repeat 50% 50%;
+                                                                }
+                                                            }
+                                                        }   
+                                                    }
+                                                }
+                                            }
+                                                
+                                              
+                                            
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .right-main{
+                        margin: 0 0 0 40px;
+                        width: 100%;
+                        max-width: 1553px;
+                        >ul{
+                            width: 100%;
+                            display: flex;
+                            flex-flow: row wrap;
+                            position: relative;
+                            >li{
+                                // width: calc(100% / 4);
+                                padding:  0 0 100px 0;
+                                position: relative;
+                                margin: 0 0 80px 20px;
+                                a{
+                                        .parents-img{
+                                            position: relative;
+                                            img{
+                                                width: 358.250px;
+                                                height: 477.656px;
+                                            } 
+                                        }
+                                        .slide-container{
+                                            position: absolute;
+                                            left: 0;
+                                            top: 0;
+                                            transition: all 0.3s;
+                                            opacity: 0;
+                                            width: 100%;
+                                            &:hover{
+                                                opacity: 1;
+                                            }
+                                            .slide-view{
+                                                width: 100%;
+                                                position: relative;
+                                                overflow: hidden;
+                                                .slide-wrap{
+                                                    width: 100% * 3;
+                                                    display: flex;
+                                                    position: relative;
+                                                    .slide{
+                                                        width: 100%;
+                                                        position: relative;
+                                                        img{
+                                                            width: 358.250px;
+                                                            height: 477.656px;
+                                                        }
+                                                        
+                                                    &::before {
+                                                        content: "";
+                                                        position: absolute;
+                                                        top: 0;
+                                                        left: 0;
+                                                        right: 0;
+                                                        bottom: 0;
+                                                        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 0.2));
+                                                        z-index: 1;
+                                                        background-size: 100% 100%;
+                                                    }
+                                                    }
+                                                }
+                                            }
+                                            .page-nation-box {
+                                                position: absolute;
+                                                bottom: calc(90 / 1080 * 100%);
+                                                left: 50%;
+                                                z-index: 4;
+                                                max-width: 1520px;
+                                                width: 100%;
+                                                box-sizing: border-box;
+                                                transform: translateX(-50%);
+                                                display: inline-flex;
+                                                flex-flow: row wrap;
+                                                .page-bar-box {
+                                                    padding: 0 50px;
+                                                    width: 100%;
+                                                    display: flex;
+                                                    position: relative;
+                                                    top: 15px;
+                                                    z-index: 4;
+                                                    box-sizing: border-box;
+                                                    .static-bar {
+                                                        width: 100%;
+                                                        position: relative;
+                                                        border-top: 2px solid #f0f0f05e;
+                                                        .dynamic-bar {
+                                                            width: calc(100% / 3);
+                                                            position: relative;
+                                                            top: -2px;
+                                                            border-top: 2px solid #fff;
+                                                            transition: all .3s ease-in-out;
+                                                        }
+                                                    }
+                                                }
+                                                .arrow-box {
+                                                    // position: absolute;
+                                                    display: flex;
+                                                    width: 100%;
+                                                    height: 100%;
+                                                    button {
+                                                        display: block;
+                                                        width: 42px;
+                                                        height: 42px;
+                                                        cursor: pointer;
+                                                        border: 0;
+                                                    }
+                                                    .prev-btn {
+                                                        z-index: 99999;
+                                                        position: absolute;
+                                                        left: 0;
+                                                        bottom: -31px;
+                                                        background: url(../../img/HSM/men_all/men_slide_right_arrow.svg) 50% 50% no-repeat;
+                                                        transform: rotate(180deg);
+                                                    }
+                                                    .next-btns {
+                                                        z-index: 99999;
+                                                        position: absolute;
+                                                        right: 0;
+                                                        bottom: -31px;
+                                                        background: url(../../img/HSM/men_all/men_slide_right_arrow.svg) 50% 50% no-repeat;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        
+                                        
+                                        
+                                    
+                                    .txt-box{
+                                        width: 100%;
+                                        display: block;
+                                        ul{
+                                            justify-content: left;
+                                            width: 345px;
+                                            // display: block;
+                                            pointer-events: none;
+                                            display: flex;
+                                            li{
+                                                h5{
+                                                    font-size: 14px;
+                                                    font-weight: 400;
+                                                    line-height: 21px;
+                                                    color: #000;
+                                                    cursor: pointer; 
+                                                }
+                                                h4{
+                                                    padding: 10px 0 0 0;
+                                                    color: #000;
+                                                    font-size: 18px;
+                                                    font-weight: 700;
+                                                    line-height: 27px;
+                                                    display: flex;
+                                                    justify-content: space-between;
+                                                }
+                                                div{
+                                                        display: flex;
+                                                        justify-content: space-between;
+                                                        position: relative;
+                                                    h3{
+                                                        margin: 10px 0 0 0;
+                                                        font-size: 16px;
+                                                        font-weight: 400;
+                                                        line-height: 24px;
+                                                        color: #000;
+                                                    }
+                                                    img{
+                                                        width: 17px;
+                                                        height: 17px;
+                                                        position: absolute;
+                                                        left: 325px;
+                                                        bottom: 5px;
+                                                    }
+                                                }
+                                                h2{
+                                                    margin: 9px 0 0 0;
+                                                    font-size: 14px;
+                                                    font-weight: 400;
+                                                    line-height: 21px;
+                                                    color: rgb(214, 0, 31);
+                                                }
+                                            }
+                                        }
+                                        button{
+                                            margin: 20px 0 0 0;
+                                            border-radius: 30px;
+                                            width: 343px;
+                                            height: 40px;
+                                            font-weight: 400;
+                                            font-size: 16px;
+                                            background: #fff;
+                                            color: #000;
+                                            offset: -1px;
+                                            border: 1px solid rgb(238,238,238);
+                                            transition: all 0.3s;
+                                            cursor: pointer;
+                                            pointer-events: all;
+                                            &:hover{
+                                                border-color: #333;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

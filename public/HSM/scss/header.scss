@@ -1,0 +1,215 @@
+#wrap {
+    width: 100%;
+    #header {
+        background-color: red;
+        z-index: 3;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100px;
+        background: #fff;
+        .container {
+            // z-index: 3;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .left-box {
+                width: 140px;
+                // padding: 40px 40px 20px 40px;
+                margin-left: 20px;
+                .logo-box {
+                    width: 100%;
+                    a {
+                        display: block;
+                        width: 100%;
+                        height: 55px;
+                        background: url(../../img/pjh/intro/header/logo.svg) no-repeat 50% 50%;
+                        background-size: auto;
+                    }
+                }
+            }
+            .center-box {
+                margin-left: 85px;
+                nav {
+                    width: 100%;
+                    >ul {
+                        display: flex;
+                        >li {
+                            a {//헤더 메뉴 버튼
+                                padding: 15px;
+                                font-size: 18px;
+                                font-weight: 700;
+                                color: #000;
+                                margin-top: 21.5px;
+                                padding-bottom: 21.5px;
+                                &:hover {
+                                    text-decoration: underline;
+                                }
+                            }
+                            i {
+                                padding: 0 15px;
+                            }
+                            &.women {
+                                //background-color: red;
+                            }
+                            &.men {
+                                //background-color: yellow;
+                            }
+                            &.brand {
+                                //background-color: blue;
+                            }
+                        }
+                    }
+                }
+                .extended-menu {
+                    z-index: 5;
+                    display: none;
+                    justify-content: space-between;
+                    width: 100%;
+                    padding: 40px 200px;
+                    position: absolute;
+                    left: 0;
+                    top: 100px;
+                    background: #fff;
+                    .title {
+                        padding-bottom: 20px;
+                        font-size: 18px;
+                        font-weight: 700;
+                    }
+                .col {
+                    margin-left: 50px;
+                        >ul {
+                            >li {
+                                padding: 10px 0;
+                                &.title {
+                                    padding-bottom: 20px;
+                                    a{
+                                        font-size: 18px;
+                                        font-weight: 700;
+                                        color: #000;
+                                    }
+                                }
+                                
+                            }
+                        }
+                        &:first-child{//NEW&FEATURED 있는 열
+                            width: 350px;
+                            border-right: 1px solid #ccc;
+                        }
+                        &:last-child {
+                            width: 350px;
+                            padding-left: 60px;
+                            border-left: 1px solid #ccc;
+                        }
+                }
+    
+                &.brand {
+                    padding: 40px;
+                    >ul {
+                        display: flex;
+                        >li {
+                            width: 20%;
+                            padding: 0 15px;
+                            .img-box {
+                                width: 100%;
+                                overflow: hidden;
+                                img {
+                                    width: 100%;
+                                    transition: all 0.5s;
+                                    &:hover {
+                                        transform: scale(1.1);
+                                    }
+                                }
+                            }
+                            .text-box {
+                                margin-top: 10px;
+                                text-align: center;
+                                a {
+                                    font-weight: 700;
+                                    font-size: 18px;
+                                    color: #000;
+                                    
+                                }
+                            }
+                        }
+                    }
+                } 
+                } 
+            }
+            .right-box {
+                margin-right: 25px;
+                .util-box {
+                    display: flex;
+                    >li {
+                        width: 55px;
+                        height: 55px;
+                        >a {
+                            display: inline-block;
+                            
+                            width: 55px;
+                            height: 55px;
+                        }
+                        &:nth-child(1) {
+                            background: url(../../img/pjh/intro/header/1.svg) no-repeat 50% 50%;
+                        }
+                        &:nth-child(2) {
+                            background: url(../../img/pjh/intro/header/돋보기.svg) no-repeat 50% 50%;
+                        }
+                        &:nth-child(3) {
+                            background: url(../../img/pjh/intro/header/3.svg) no-repeat 50% 50%;
+                            position: relative;
+                        }
+                        &:nth-child(4) {
+                            background: url(../../img/pjh/intro/header/4.svg) no-repeat 50% 50%;
+                        }
+                        .sub {
+                            visibility: hidden;
+                            position: absolute;
+                            top: 100%;
+                            right: -39px;
+                            z-index: 100;
+                            width: 240px;
+                            padding-top: 6px;
+                            opacity: 0;
+                            transition: visibility 0.1s, opacity 0.3s;
+                            padding: 25px 20px 29px;
+                            box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.3);
+                            border-radius: 10px;
+                            background-color: #fff;
+                            &.on {
+                                visibility:visible;
+                                opacity: 1;
+                            }
+                            >ul {
+                                width: 100%;
+                                >li {
+                                    text-align: left;
+                                    >a {
+                                        font-size: 16px;
+                                        line-height: 34px;
+                                        color: #000;
+                                        font-weight: 400;
+                                    }
+                                }
+                            }
+                        } 
+                    }
+                }
+            }
+        }
+        .bg-blur {
+            z-index: 1;
+            display: none;
+            top: 100px;
+            width: 100%;
+            height: 100vh;
+            visibility: hidden;
+            // visibility: visible;
+            background-color: rgba(0,0,0,0.1);
+            backdrop-filter: blur(30px);
+        }
+    }
+}

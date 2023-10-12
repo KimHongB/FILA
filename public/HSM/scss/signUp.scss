@@ -1,0 +1,800 @@
+#signUp {
+    width: 100%;
+    padding: 60px 0 0 0;
+    .container {
+        width: 100%;
+        padding: 50px 0;
+        .gap {
+            width: 100%;
+            .title {
+                width: 100%;
+                h2 {
+                    font-size: 32px;
+                    font-weight: 700;
+                    line-height: 48px;
+                    color: #000;
+                    text-align: center;
+                }
+            }
+            .content {
+                width: 100%;
+                max-width: 600px;
+                margin: 0 auto;
+                form {
+                    margin-top: 44px;
+                    .box1 {
+                        border-bottom: 1px solid #000;
+                        p {
+                            font-size: 18px;
+                            font-weight: 400;
+                            line-height: 32px;
+                            color: #000;
+                        }
+                        .kakao-btn {
+                            margin-top: 27px;
+                            background-color: rgba(254, 220, 0);
+                            border-radius: 30px;
+                            box-sizing: border-box;
+                            height: 60px;
+                            margin-bottom: 60px;
+                            text-align: center;
+                            position: relative;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            span {
+                                font-size: 18px;
+                                font-weight: 400;
+                                color: #000;
+                            }
+                            img {
+                                position: absolute;
+                                left: 20px;
+                                }
+                        }
+                    }
+                    .box2 {
+                        // margin-bottom: 30px;
+                        .tit {
+                            margin: 55px 0 27px 0;
+                            h3 {
+                                color: #000;
+                                font-size: 18px;
+                                font-weight: 700;
+                                line-height: 27px;
+                            }
+                        }
+                        .input-box {
+                            width: 100%;
+                            li {
+                                height: 50px;
+                                margin-top: 10px;
+                                input {
+                                    width: 100%;
+                                    max-width: 480px;
+                                    height: 100%;
+                                    padding: 0 64px 0 20px;
+                                    border: 1px solid #ccc;
+                                    border-radius: 5px;
+                                    font-size: 16px;
+                                    color: #333;
+                                }
+                                select {
+                                    width: 110px;
+                                    height: 100%;
+                                    padding: 0 43px 0 20px;
+                                    font-size: 16px;
+                                    border: 1px solid #ccc;
+                                    border-radius: 5px;
+                                    color: #999;
+                                    appearance: none;
+                                    // background: url(../img/KHB/signup/arr_down.png) 80% 50% no-repeat;
+                                    // background: url(./img/HSM/signup/arr_down.png) 100% 50%;
+                                }
+                                &.name {
+                                    display: flex;
+                                    position: relative;
+                                    input {
+                                        width: 100%;
+                                        margin-right: 10px;
+                                    }
+                                    select {
+                                        option {}
+                                    }
+                                    img {
+                                        width: 9px;
+                                        height: 7px;
+                                        position: absolute;
+                                        right: 3%;
+                                        top: 45%;
+                                    }
+                                }
+                                &.birth {
+                                    display: flex;
+                                    position: relative;
+                                    input {
+                                        width: 153px;
+                                        margin-right: 10px;
+                                    }
+                                    select {
+                                        background: url(./img/HSM/signup/arr_down.png) 100% 50%;
+                                        option {}
+                                    }
+                                    img {
+                                        width: 9px;
+                                        height: 7px;
+                                        position: absolute;
+                                        right: 3%;
+                                        top: 45%;
+                                    }
+                                }
+                                &.hp {
+                                    display: flex;
+                                    select {
+                                        width: 145px;
+                                        margin-right: 10px;
+                                        &:nth-child(1){
+                                            border-color: #000;
+                                            color: #000;
+                                        }
+                                        option {}
+                                    }
+                                    input {
+                                        width: 330px;
+                                        &#userHp {
+                                            display: none;
+                                        }
+                                    }
+                                    button {
+                                        margin-left: 10px;
+                                        width: 110px;
+                                        height: 50px;
+                                        border-radius: 5px;
+                                        outline: 0;
+                                        background-color: #fff;
+                                        border: 1px solid #000;
+                                        transition: all 0.3s;
+                                        font-size: 15px;
+                                        font-weight: 700;
+                                        // line-height: 58px;
+                                        &:hover {
+                                            background-color: #002053;
+                                            color: #fff;
+                                        }
+                                    }
+                                }
+                                input {}
+                            }
+                            .error-msg {
+                                display: none;
+                                &.on{
+                                    padding-top: 5px;
+                                    font-size: 12px;
+                                    display: block;
+                                    color: #ff0000;
+                                }
+                            }
+                        }
+                    }
+                    .box3 {
+                    }
+                    .box4 {
+                        position: relative;
+                        display: flex;
+                        margin-top: 10px;
+                        input {
+                            width: 490px;
+                            height: 50px;
+                            padding: 0 64px 0 20px;
+                            border: 1px solid #ccc;
+                            border-radius: 5px;
+                            font-size: 16px;
+                            color: #333;
+                            
+                        }
+                        .hp-timer-counter {
+                            position: absolute;
+                            right: 150px;
+                            top: 0;
+                            z-index: 2;
+                            display: none;
+                            align-items: center;
+                            height: 50px;
+                            color:#f03f40;
+                            letter-spacing: 1px;
+                            &.on {
+                                display: flex;
+                            }
+                        }
+                        button {
+                            margin-left: 10px;
+                            width: 110px;
+                            height: 50px;
+                            border-radius: 5px;
+                            outline: 0;
+                            background-color: #fff;
+                            border: 1px solid #000;
+                            transition: all 0.3s;
+                            font-size: 15px;
+                            font-weight: 700;
+                            // line-height: 58px;
+                            &:hover {
+                                background-color: #002053;
+                                color: #fff;
+                            }
+                        }
+                    }
+                    .box5 {
+                        margin-top: 10px;
+                        button {
+                            width: 600px;
+                            height: 60px;
+                            border-radius: 30px;
+                            outline: 0;
+                            background-color: #fff;
+                            border: 1px solid #000;
+                            transition: all 0.3s;
+                                h2 {
+                                    font-size: 18px;
+                                    font-weight: 700;
+                                    line-height: 58px;
+                                }
+                                &:hover {
+                                    background-color: #002053;
+                                    color: #fff;
+                                }
+                        }
+
+                    }
+                    .center-box{
+                        width: 100%;
+                        >ul{
+                            width: 100%;   
+                            >li{
+                                width: 100%;
+                                    label{
+                                        width: 100%;
+                                        font-size: 16px;
+                                        font-weight: 500;
+                                        color: #000;
+                                        padding: 20px 0;
+                                        cursor: pointer;
+                                    }
+                                    input{
+                                        height: 25px;
+                                        width: 21px;
+                                        margin: 0 10px 0 0;
+                                        display: block;
+                                        cursor: pointer;
+                                    }
+                                    input[type='checkbox'] {
+                                        background: url(../../../../../public/img/HSM/signup/off.svg);
+                                        margin: 0 10px 0 0;
+                                    }
+                                        img{
+                                            width:12px;
+                                            transition: all 0.3s;
+                                            &.on {
+                                                transform: rotate(-180deg);
+                                            }
+                                        }
+                                        &.on{
+                                            img {
+                                               
+                                            }
+                                    }
+                            }
+                                li:nth-child(1){
+                                    // user-select: none;
+                                    // display: flex !important;
+                                    display: inline-flex;
+                                    // padding: 0 0 15px 0; 
+                                    // height: 52px;
+                                    align-items: center;
+                                    justify-content: left;
+                                    font-weight: 600;
+                                }
+                                >ul{
+                                    width: 100%;
+                                    display: none; 
+                                    &.on{
+                                        display: block;
+                                    }
+                                   >li{
+                                        width: 100%;
+                                        display: flex;
+                                        // padding: 0 0 15px 0; 
+                                        // height: 52px;
+                                        align-items: center;
+                                        justify-content: left;
+                                        // flex-flow: column;
+                                        input{
+                                            height: 25px;
+                                            width: 20px;
+                                            margin: 0 10px 0 0;
+                                            // display: block;
+                                        }
+                                        label{
+                                            width: 100%;
+                                            font-size: 16px;
+                                            font-weight: 500;
+                                            color: #000;
+                                            padding: 10px 0;
+                                        }
+                                    }
+                                }
+                        }
+                    }
+                    .box5 {
+                        margin: 10px 0 60px 0;
+                        // padding:  0 0 60px 0;
+                        button {
+                            width: 600px;
+                            height: 60px;
+                            border-radius: 30px;
+                            outline: 0;
+                            background-color: #fff;
+                            border: 1px solid #000;
+                            transition: all 0.3s;
+                                h2 {
+                                    font-size: 18px;
+                                    font-weight: 700;
+                                    line-height: 58px;
+                                }
+                                &:hover {
+                                    background-color: #002053;
+                                    color: #fff;
+                                }
+                        }
+
+                    }
+                    .title2{
+                        border-top:1px solid #eee ;
+                        h2{
+                            margin: 55px 0 27px 0;
+                            text-align: left;
+                            font-size: 18px;
+                            font-weight: 700;
+                            line-height: 27px;
+                            color: #000;
+                        }
+                    }
+                    .content2{
+                        width: 100%;
+                        padding: 0 0 80px 0;
+                        border-bottom:1px solid #000 ;
+                        
+                        label{
+                            display: flex;
+                            width: 600px;
+                            padding: 5px 0;
+                            outline-offset: -1px;
+                            position: relative;
+                            &:focus{
+                                outline-offset:1px  ;
+                            }
+                            input{
+                                position: relative;
+                                border: 0;
+                                border: 1px solid #eee;
+                                border-radius: 5px;
+                                padding: 5px 0;
+                                font-size: 16px;
+                                font-weight: 500;
+                                color: #000;
+                                padding: 0 64px 0 20px ;
+                                width: 600px;
+                                height: 50px;
+                            }
+                            &.pwImg{
+                                img {
+                                    position: absolute;
+                                    z-index: 1;
+                                    top: 50%;
+                                    right: 0;
+                                    width: 24px;
+                                    transform: translate(-100%, -50%);
+                                }
+                            }
+                            >button{
+                                margin: 0 0 0 10px;
+                                font-size: 16px;
+                                font-weight: 400;
+                                line-height: 24px;
+                                width: 106px;
+                                height: 50px;
+                                border: 0;
+                                border: 1px solid #000;
+                                color: #000;
+                                border-radius: 5px;
+                                background: #fff;
+                                cursor: pointer;
+                                padding: 0 5px;
+                                transition: all .3s;
+                                &:hover{
+                                    color: #fff;
+                                    background: rgb(0, 41,101);
+                                }
+                            }
+                        }
+
+                           //0601 박준호 추가
+                           p {
+                            color: #f03f40;
+                            font-size: 12px; 
+                            font-weight: 500;
+                            display: none;
+                            padding: 0 0 20px 0;
+                            letter-spacing: -0.5px;
+                            &.on {
+                                display: block;
+                            }
+                        }
+                        //////////////////////////////
+                        //박준호 추가 끝
+                        //0531박준호 추가
+                        .addr-box {
+                            padding-top: 30px;
+                            h3 {
+                                padding-bottom: 10px;
+                                font-size: 16px;
+                                font-weight: 600;
+                                color: #000;
+                            }
+                            .addr-search-btn {
+                                display: block;
+                                width: 100%;
+                                height: 50px;
+                                border: none;
+                                border-radius: 5px;
+                                background-color: #002053;
+                                color: #fff;
+                                font-size: 16px;
+                                font-weight: 600;
+                                cursor: pointer;
+                                &.off {
+                                    display: none;
+                                }
+                            }
+                            >input {
+                                display: none;
+                                position: relative;
+                                border: 0;
+                                border: 1px solid #eee;
+                                border-radius: 5px;
+                                margin: 20px 0;
+                                padding: 5px 20px;
+                                font-size: 16px;
+                                font-weight: 500;
+                                color: #000;
+                                padding: 0 64px 0 20px ;
+                                width: 600px;
+                                height: 50px;
+                                &.on {
+                                    display: block;
+                                }
+                            }
+                        }
+                        ///////////////////
+                        //박준호 추가 끝
+                    }
+                    // 최용석 회원가입폼 섹션3
+                    .signup-section3 {
+                        width: 100%;
+                        position: relative;
+                        padding-bottom: 60px;
+                        border-bottom: 1px solid #000;
+                        .title3 {
+                            width: 100%;
+                            margin: 55px 0 27px;
+                            display: flex;
+                            justify-content: space-between;
+                            line-height: 1.5;
+                            h2 {
+                                color: #000;
+                                font-size: 18px;
+                                font-weight: 700;
+                            }
+                        }
+                        >a {
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                            .pm {
+                                position: relative;
+                                margin-left: 14px;
+                                display: inline-block;
+                                width: 10px;
+                                height: 2px;
+                                background-color: rgb(0, 0, 0);
+                                vertical-align: 5px;
+                                transition: all .3s;
+                                &.on {
+                                    &::before {
+                                        // transform: translate(-50%, -50%) rotate(0deg);
+                                        transform: translate(-50%, -50%) rotate(90deg);
+                                    }
+                                }
+                                &::before {
+                                    content: '';
+                                    display: inline-block;
+                                    position: absolute;
+                                    top: 25%;
+                                    right: 25%;
+                                    width: 2px;
+                                    height: 10px;
+                                    background-color: rgb(0,0,0);
+                                    // transform: translate(-50%, -50%) rotate(90deg);
+                                    transform: translate(-50%, -50%) rotate(0deg);
+                                    transition: all .3s;
+                                }
+                            }
+                        }
+                        .content3 {
+                            width: 100%;
+                            overflow: hidden;
+                            display: none;
+                            &.on {
+                                display: block;
+                            }
+                            // transition: all .3s ease-in-out;
+                                ul {
+                                    width: 100%;
+                                    li {
+                                        width: 100%;
+                                        button {
+                                            width: 100%;
+                                            height: 60px;
+                                            font-size: 16px;
+                                            border-radius: 5px;
+                                            color: #000;
+                                            border: 1px solid #ddd;
+                                            background: #fff;
+                                            cursor: pointer;
+                                            margin: 27px 0 0 0;
+                                        }
+                                        input {
+                                            width: 100%;
+                                            padding: 0 64px 0 20px;
+                                            height: 50px;
+                                            border: 1px solid #ddd;
+                                            border-radius: 5px;
+                                            font-size: 15px;
+                                            font-weight: 500;
+                                            outline-offset: -1px;
+                                            &:focus {
+                                                outline: 1px solid #000;
+                                            }
+                                        }
+                                        &.row1 {
+            
+                                        }
+                                        &.row2 {
+                                            display: flex;
+                                            margin-top: 10px;
+                                            input {
+                                                width: 480px;
+                                                margin-right: 10px;
+                                            }
+                                            select {
+                                                font-size: 16px;
+                                                font-weight: 400;
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: flex-start;
+                                                width: 110px;
+                                                padding: 0 0 0 20px;
+                                                border-radius: 5px;
+                                                outline-offset: -1px;
+                                                border: 1px solid #ddd;
+                                                color: #999;
+                                                &:focus {
+                                                    outline: 1px solid #000;
+                                                }
+                                                option {
+                                                    font-size: 16px;
+                                                    font-weight: 400;
+                                                    color: #999;
+                                                    
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                .under-text {
+                                    margin-top: 15px;
+                                    width: 100%;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    p {
+                                        color: #999;}
+                                    a {
+                                        color: #999;
+                                        font-size: 14px;
+                                        text-decoration: underline;
+                                    }
+                                    
+                                }
+                        }
+
+                    }
+                    #signup_section4 {
+                        width: 100%;
+                        .title4 {
+                            padding-bottom: 20px;
+                            h3 {
+                                font-size: 18px;
+                                font-weight: 700;
+                                color: #000;
+                            }
+                        }
+                        .content4 {
+                            width: 100%;
+                            .agree-all {
+                                display: flex;
+                                justify-content: space-between;
+                                padding-bottom: 20px;
+                                .checkbox-box {
+                                    position: relative;
+                                    label {
+                                        padding-left: 30px;
+                                        font-size: 16px;
+                                        font-weight: 500;
+                                        color: #000;
+                                        cursor: pointer;
+                                        &::before {
+                                            position: absolute;
+                                            content: '';
+                                            top: 0;
+                                            left: 0;
+                                            z-index: 2;
+                                            width: 20px;
+                                            height: 20px;
+                                            // background: url(../../../../../public/img/pjh/user/checkbox_off_20x20.png) no-repeat 50% 50%;
+                                            background: url(../../img/pjh/user/checkbox_off_20x20.png) no-repeat 50% 50%;
+                                        }
+                                    }
+                                    input {
+                                        appearance: none;
+                                    }
+                                    input[type=checkbox]:checked+label {
+                                        &::before {
+                                        //  background: url(../../../../../public/img/pjh/user/checkbox_on_20x20.png) no-repeat 50% 50%;
+                                         background: url(../../img/pjh/user/checkbox_on_20x20.png) no-repeat 50% 50%;
+                                        }
+                                     }
+                                    
+                                }
+                                .arrow-btn {
+                                    cursor: pointer;
+                                    width: 50px;
+                                    border: none;
+                                    background: url(../../img/pjh/user/arrow.svg) no-repeat 100% 50%;
+                                    &.on {
+                                        background-position-x: 0%;
+                                        transform: rotate(-180deg);
+                                    }
+                                }
+                            }
+                            .agree-box {
+                                // display: none;
+                                width: 100%;
+                                padding-left: 30px;
+                                
+                                &.on {
+                                    display: block;
+                                }
+                                ul {
+                                    width: 100%;
+                                    li {
+                                        display: flex;
+                                        justify-content: space-between;
+                                        width: 100%;
+                                        padding: 10px 0;
+                                        &.user-optional-all-box {
+                                            display: block;
+                                            p {
+                                                padding: 20px 0 0 30px;
+                                            }
+                                        }
+                                        &.SMS-and-Email {
+                                            display: block;
+                                            label {
+                                                margin-right: 10px;
+                                            }
+                                            p {
+                                                padding-top: 30px;
+                                                font-size: 16px;
+                                                color: #999;
+                                                line-height: 1.2;
+                                            }
+                                        }
+                                        >label {
+                                            position: relative;
+                                            padding-left: 30px;
+                                            font-size: 16px;
+                                            font-weight: 500;
+                                            color: #000;
+                                            cursor: pointer;
+                                            &::before {
+                                                position: absolute;
+                                                content: '';
+                                                top: 0;
+                                                left: 0;
+                                                z-index: 2;
+                                                width: 20px;
+                                                height: 20px;
+                                                background: url(../../img/pjh/user/checkbox_off_20x20.png) no-repeat 50% 50%;
+                                            }
+                                            .just-text {
+                                                flex-grow: 1;
+                                            }
+                                           
+                                            .red-mark {
+                                                color: #d6001f;
+                                                vertical-align: top;
+                                            }
+                                           
+                                            p {
+                                                
+                                            }
+                                            
+                                           
+                                        }
+                                        input {
+                                            display: none;
+                                            appearance: none;
+                                        }
+                                        
+                                        input[type=checkbox]:checked+label {
+                                           &::before {
+                                            background: url(../../img/pjh/user/checkbox_on_20x20.png) no-repeat 50% 50%;
+                                           }
+                                        }
+                                       
+                                        
+                                        a {
+                                            color: #999;
+                                            text-decoration: underline;
+                                            cursor: pointer;
+                                            justify-content: flex-end;
+                                        }
+                                        
+                                    }
+                                }
+                            }
+                            .submit-box {
+                                width: 100%;
+                                padding: 40px 0;
+                                border-top: 1px solid #000;
+                                p {
+                                    font-size: 16px;
+                                    color: #999;
+                                }
+                                .btn-box {
+                                    width: 100%;
+                                    height: 60px;
+                                    padding-top: 100px;
+                                   
+                                    >button {
+                                        width: 100%;
+                                        height: 60px;
+                                        border: none;
+                                        border-radius: 60px;
+                                        background: #002053;
+                                        color: #fff;
+                                        line-height: 58px;
+                                        font-size: 18px;
+                                        font-weight: 700;
+                                        cursor: pointer;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

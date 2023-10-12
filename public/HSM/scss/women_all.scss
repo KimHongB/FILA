@@ -1,0 +1,526 @@
+#wrap{
+    width: 100%;
+    #womenall {
+        .container{
+            width: 100%;
+            max-width: 1903px;
+            .gap{
+                padding: 0 40px 100px 40px;
+                .title{
+                    padding: 109px 0 9px 0px;
+                    display: flex;
+                    .left-box{
+                        // margin: 0 0 0 10px;
+                        width: 100%;
+                        max-width: 230px;
+                        display: flex;
+                        ul{
+                            width: 100%;
+                            display: flex;
+                            li{
+                                display: flex;
+                                h1{
+                                    margin: 0 0 0 10px;
+                                    font-size: 28px;
+                                    font-weight: 700;
+                                    line-height: 42px;
+                                    color: #000;
+                                
+                                }
+                                h3{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    width: 100%;
+                                        img{
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+                                            width: 15%;
+                                            margin: 0 15px;
+                                        }
+                                }
+    
+                                h2{
+                                      font-size: 28px;
+                                    font-weight: 700;
+                                    line-height: 42px;
+                                    color: #000;
+                                }
+                            }
+                        }
+                    }
+                    .center-box{
+                        width: 100%;
+                        display: flex;
+                        margin: 0 0 0 20px;
+                        ul{
+                            width: 100%;
+                            display: flex;
+                            align-items: center;
+                            li{
+                               margin: 0 0 0 65px;
+                                h4{
+                                    font-size: 17px;
+                                    color: #000;
+                                    line-height: 18px;
+                                    align-items: center;
+                                    cursor: pointer;
+                                }
+                                i{
+                                    display: inline-block;
+                                    width: 100%;
+                                    // margin: 0 15px;
+                                    position: relative;
+                                    padding: 0 20px 0 0 ;
+                                    &::before{
+                                        content:'';
+                                        position: absolute;
+                                        left: -10px;
+                                        top: 20%;
+                                        margin: -0.5px 0 0 0;
+                                        width: 8px;
+                                        height: 2px;
+                                        background: #000;
+                                        cursor: pointer;
+                                    }                           
+                                }
+                                h5{
+                                    font-size: 17px;
+                                    color: #000;
+                                    line-height: 18px;
+                                    align-items: center;
+                                    margin: 0 0 0 -25px;
+                                    cursor: pointer;
+                                }
+                                &:nth-child(3){
+                                    margin: 0 0 0 10px;
+                                    color: #aaa;
+                                }
+                                &:nth-child(2){
+                                    margin: 0 0 0 30px;
+                                }
+                            }
+                        }
+                    }
+                    .right-box{
+                        width: 100%;
+                        max-width: 300px;
+                        display: flex;
+                        ul{
+                            width: 100%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            li{
+                                
+                                select{
+                                    cursor: pointer;
+                                    font-size: 16px;
+                                    justify-content: left;
+                                    border: 0;
+                                    padding: 0 20px 0 0;
+                                    option{
+    
+                                    }
+                                }
+                                
+                            }
+                            .sk{
+                                margin: 0 25px 0 50px ;
+                             
+                            }
+                            .img1{
+                                margin: 0 25px 0 0;
+                                cursor: pointer;
+                            }
+                            .img2{
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+                .content{
+                    display: flex;
+                    .category-box {
+                        margin-top: 40px;
+                        width: 230px;
+                        padding-right: 40px;
+                        position: sticky;  // 스티키 설정
+                        top: 40px;
+                        left: 0;
+                        height: 100vh;
+                        // 수직 스크롤 오버시에 생성
+                        overflow-y: auto;
+                        // 스크롤바 디자인
+                        &::-webkit-scrollbar {
+                            width:3px;
+                        }
+                        &::-webkit-scrollbar-track {
+                            background-color: #ccc;
+                        }
+                        &::-webkit-scrollbar-thumb {
+                            background-color: #000;
+                        }
+                        .category {
+                            //각 카테고리 박스 안의 있는 버튼
+                            button {
+                                width: 100%;
+                                margin-bottom: 20px;
+                                border: none;
+                                // background: url('../../img/KHB/arr_up_bk_9x6.png') no-repeat 100% 50%;
+                                background: url('../../img/HSM/women_all/arr_up_bk_9x6.png') no-repeat 100% 50%;
+                                font-size: 16px;
+                                font-weight: 700;
+                                color: #000;
+                                text-align: left;
+                                cursor: pointer;
+                                
+                            }
+                            .category1 {
+                                ul {
+                                    li {
+                                        padding: 15px 0;
+                                        a {
+                                            font-size: 18px;
+                                            font-weight: 500;
+                                        }
+                                    }
+                                }
+                            }
+                            .category2 {
+                                margin-top: 30px;
+                                padding-top: 30px;
+                                border-top: 1px solid #999;
+                                ul {
+                                    li {
+                                        padding: 10px 0;
+                                        label {
+                                            font-size: 16px;
+                                            input {
+                                                appearance: none;
+                                                position: relative;
+                                                cursor: pointer;
+                                                width: 20px;
+                                                height: 20px;
+                                                margin-right: 10px;
+                                                border: 1px solid #ccc;
+                                                border-radius: 5px;
+                                                &:checked {
+                                                    border: 1px solid #333;
+                                                    &::before {
+                                                        content: '';
+                                                        z-index: 3;
+                                                        position: absolute;
+                                                        width: 14px;
+                                                        height: 14px;
+                                                        top: 50%;
+                                                        left: 50%;
+                                                        
+                                                        transform: translate(-50%, -50%);
+                                                        background: url('../../img/HSM/women_all/checkbox_on_20x20.png') no-repeat 50% 50%;
+                                                    }
+                                                }
+                                            }   
+                                        }
+                                    }
+                                }
+                            }
+    
+                            //색상
+                            .category3 {
+                                margin-top: 30px;
+                                padding-top: 30px;
+                                border-top: 1px solid #999;
+                                
+                                ul {
+                                    display: grid;
+                                    grid-template-columns: repeat(6, 1fr);
+                                    row-gap: 10px;
+                                    column-gap: 10px;
+                                    li {
+                                        width: 22px;
+                                        height: 22px;
+                                        label {
+                                            input {
+                                                position: relative;
+                                                width: 22px;
+                                                height: 22px;
+                                                appearance: none;
+                                                cursor: pointer;
+                                                background-size: cover;
+                                                background: url () no-repeat 50% 50%;
+                                                &#BEIGE  {background-image: url('../../img/HSM/women_all/BEIGE.png');}
+                                                &#BLACK  {background-image: url('../../img/HSM/women_all/BLACK.png');}
+                                                &#BLUE   {background-image: url('../../img/HSM/women_all/BLUE.png');}
+                                                &#GREEN  {background-image: url('../../img/HSM/women_all/GREEN.png');}
+                                                &#GREY   {background-image: url('../../img/HSM/women_all/GREY.png');}
+                                                &#PINK   {background-image: url('../../img/HSM/women_all/PINK.png');}
+                                                &#RED    {background-image: url('../../img/HSM/women_all/RED.png');}
+                                                &#WHITE  {background-image: url('../../img/HSM/women_all/WHITE.png');}
+                                                &#YELLOW {background-image: url('../../img/HSM/women_all/YELLOW.png');}
+                                                &#ORANGE {background-image: url('../../img/HSM/women_all/ORANGE.png');}
+                                                &#MIX    {background-image: url('../../img/HSM/women_all/MIX.png');}
+                                                &#NAVY   {background-image: url('../../img/HSM/women_all/NAVY.png');}
+                                                &#NEON   {background-image: url('../../img/HSM/women_all/NEON.png');}
+                                                &:checked {
+                                                    &::before {
+                                                        content: '';
+                                                        z-index: 3;
+                                                        position: absolute;
+                                                        width: 10px;
+                                                        height: 10px;
+                                                        top: 50%;
+                                                        left: 50%;
+                                                        transform: translate(-50%, -50%);
+                                                        background: url('../../img/HSM/women_all/ico_check_wt_12x8.png') no-repeat 50% 50%;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .category4 {
+                                margin-top: 30px;
+                                padding-top: 30px;
+                                border-top: 1px solid #999;
+                                ul {
+                                    display: grid;
+                                    grid-template-columns: repeat(4, 1fr);
+                                    row-gap: 10px;
+                                    column-gap: 10px;
+                                    li {
+                                        
+                                        label {
+                                            position: relative;
+                                            display: flex;
+                                            align-items: center;
+                                            
+                                            width: 43px;
+                                            height: 50px;
+                                            input {
+                                                position: relative;
+                                                z-index: 2;
+                                                width: 100%;
+                                                height: 100%;
+                                                border: 1px solid #ccc;
+                                                border-radius: 6px;
+                                                appearance: none;
+                                                cursor: pointer;
+                                                &:checked { 
+                                                    border-color: #333;
+                                                }
+                                            }
+                                            span {
+                                                position: absolute;
+                                                z-index: 1;
+                                                top: 50%;
+                                                left: 50%;
+                                                transform: translate(-50%, -50%);
+                                                font-size: 16px;
+                                                
+                                            }
+                                            
+                                        }
+                                    }
+                                }
+                            }
+                            .category5 {
+                                margin-top: 30px;
+                                padding-top: 30px;
+                                border-top: 1px solid #999;
+                                ul {
+                                    li {
+                                        padding: 10px 0;
+                                        label {
+                                            font-size: 16px;
+                                            input {
+                                                appearance: none;
+                                                position: relative;
+                                                cursor: pointer;
+                                                width: 20px;
+                                                height: 20px;
+                                                margin-right: 10px;
+                                                border: 1px solid #ccc;
+                                                border-radius: 5px;
+                                                &:checked {
+                                                    border: 1px solid #333;
+                                                    &::before {
+                                                        content: '';
+                                                        z-index: 3;
+                                                        position: absolute;
+                                                        width: 14px;
+                                                        height: 14px;
+                                                        top: 50%;
+                                                        left: 50%;
+                                                        transform: translate(-50%, -50%);
+                                                        background: url('../../img/HSM/women_all/checkbox_on_20x20.png') no-repeat 50% 50%;
+                                                    }
+                                                }
+                                            }   
+                                        }
+                                    }
+                                }
+                            }
+                            .category6 {
+                                margin-top: 30px;
+                                padding-top: 30px;
+                                border-top: 1px solid #999;
+                                ul {
+                                    li {
+                                        padding: 10px 0;
+                                        label {
+                                            font-size: 16px;
+                                            input {
+                                                appearance: none;
+                                                position: relative;
+                                                cursor: pointer;
+                                                width: 20px;
+                                                height: 20px;
+                                                margin-right: 10px;
+                                                border: 1px solid #ccc;
+                                                border-radius: 5px;
+                                                &:checked {
+                                                    border: 1px solid #333;
+                                                    &::before {
+                                                        content: '';
+                                                        z-index: 3;
+                                                        position: absolute;
+                                                        width: 14px;
+                                                        height: 14px;
+                                                        top: 50%;
+                                                        left: 50%;
+                                                        
+                                                        transform: translate(-50%, -50%);
+                                                        background: url('../../img/HSM/women_all/checkbox_on_20x20.png') no-repeat 50% 50%;
+                                                    }
+                                                }
+                                            }   
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .right-main{
+                        width: 1553px;
+                        margin-left: 40px;
+                        >ul{
+                            width: 100%;
+                            display: flex;
+                            flex-flow: row wrap;
+                            position: relative;
+                            >li{
+                                width: calc(100% / 4);
+                                padding:  0 0 100px 0;
+                                a{
+                                    .img-box{
+                                        position: relative;
+                                        .parents-img{
+                                            position: relative;
+                                            img{
+                                                width: 358.250px;
+                                                height: 477.656px;
+                                            } 
+                                        }
+                                        .baby-img{
+                                            position: absolute;
+                                            left: 0;
+                                            top: 0;
+                                            transition: all 0.3s;
+                                            opacity: 0;
+                                            img{
+                                                width: 358.250px;
+                                                height: 477.656px;
+                                            } 
+                                        }
+                                        &:hover{
+                                            .baby-img{
+                                                opacity: 1;
+                                            }
+                                        }
+                                        
+                                    }
+                                    .txt-box{
+                                        width: 100%;
+                                        display: block;
+                                        ul{
+                                            justify-content: left;
+                                            width: 345px;
+                                            // display: block;
+                                            pointer-events: none;
+                                            display: flex;
+                                            li{
+                                                h5{
+                                                    font-size: 14px;
+                                                    font-weight: 400;
+                                                    line-height: 21px;
+                                                    color: #000;
+                                                    cursor: pointer; 
+                                                }
+                                                h4{
+                                                    padding: 10px 0 0 0;
+                                                    color: #000;
+                                                    font-size: 18px;
+                                                    font-weight: 700;
+                                                    line-height: 27px;
+                                                    display: flex;
+                                                    justify-content: space-between;
+                                                }
+                                                div{
+                                                        display: flex;
+                                                        justify-content: space-between;
+                                                        position: relative;
+                                                    h3{
+                                                        margin: 10px 0 0 0;
+                                                        font-size: 16px;
+                                                        font-weight: 400;
+                                                        line-height: 24px;
+                                                        color: #000;
+                                                    }
+                                                    img{
+                                                        width: 17px;
+                                                        height: 17px;
+                                                        position: absolute;
+                                                        left: 325px;
+                                                        bottom: 5px;
+                                                    }
+                                                }
+                                                h2{
+                                                    margin: 9px 0 0 0;
+                                                    font-size: 14px;
+                                                    font-weight: 400;
+                                                    line-height: 21px;
+                                                    color: rgb(214, 0, 31);
+                                                }
+                                            }
+                                        }
+                                        button{
+                                            margin: 20px 0 0 0;
+                                            border-radius: 30px;
+                                            width: 343px;
+                                            height: 40px;
+                                            font-weight: 400;
+                                            font-size: 16px;
+                                            background: #fff;
+                                            color: #000;
+                                            offset: -1px;
+                                            border: 1px solid rgb(238,238,238);
+                                            transition: all 0.3s;
+                                            cursor: pointer;
+                                            pointer-events: all;
+                                            &:hover{
+                                                border-color: #333;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

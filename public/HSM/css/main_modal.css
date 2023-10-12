@@ -1,0 +1,58 @@
+#mainmodal {
+  width: 100%;
+}
+#mainmodal .container {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 12;
+  background: rgba(0, 0, 0, 0.4);
+}
+#mainmodal .container .gap {
+  width: 100%;
+}
+#mainmodal .container .gap .content {
+  position: relative;
+  width: 100%;
+}
+#mainmodal .container .gap .content ul {
+  position: relative;
+}
+#mainmodal .container .gap .content ul li {
+  width: 360px;
+  height: 504px;
+  position: relative;
+}
+#mainmodal .container .gap .content ul li:nth-child(1) {
+  position: fixed;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#mainmodal .container .gap .content ul li:nth-child(1) a img {
+  width: 360px;
+  height: 504px;
+}
+#mainmodal .container .gap .content ul li:nth-child(1) a div {
+  position: absolute;
+  z-index: 10;
+  top: 15px;
+  right: 11px;
+}
+#mainmodal .container .gap .content ul li:nth-child(1) a div a img {
+  width: 24px;
+  height: 24px;
+}
+#mainmodal .container .gap .content ul li:nth-child(2) {
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 11;
+}

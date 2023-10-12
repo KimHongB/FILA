@@ -1,0 +1,145 @@
+#wrap {
+    width: 100%;
+    #header {
+        background-color: red;
+        z-index: 3;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: #fff;
+
+        .top-box {
+            display: flex;
+            justify-content: space-between;
+            padding: 40px 40px 20px 40px;
+            .logo-box {
+                width: 140px;
+                a {
+                    img {
+                        width: auto;
+                    }
+                }
+            }
+            nav {
+                display: flex;
+                align-items: flex-end;
+                ul {
+                    display: flex;
+                    li {
+                        display: flex;
+                        align-items: center;
+                        padding: 0 20px;
+                        a {//헤더 메뉴 버튼
+                            padding-bottom: 25px;
+                            font-size: 18px;
+                            font-weight: 700;
+                            &:hover {
+                                text-decoration: underline;
+                            }
+                        }
+                        &.women {
+                            //background-color: red;
+                        }
+                        &.men {
+                            //background-color: yellow;
+                        }
+                        &.brand {
+                            //background-color: blue;
+                        }
+                    }
+                }
+            }
+            .link-box {
+                a {
+                    display: inline-block;
+                    width: 55px;
+                    height: 55px;
+                }
+                .util-store {
+                    background: url(../img/pjh/intro/header/1.svg) no-repeat 50% 50%;
+                }
+                .util-search {
+                    background: url(../img/pjh/intro/header/돋보기.svg) no-repeat 50% 50%;
+                }
+                .util-account {
+                    background: url(../img/pjh/intro/header/3.svg) no-repeat 50% 50%;
+                }
+                .util-cart {
+                    background: url(../img/pjh/intro/header/4.svg) no-repeat 50% 50%;
+                }
+            }
+        }
+        .extended-menu {
+            display: none;
+            justify-content: space-between;
+            width: 100%;
+            padding: 40px 200px;
+
+            
+            .title {
+                padding-bottom: 20px;
+                font-size: 18px;
+                font-weight: 700;
+            }
+           .col {
+            margin-left: 50px;
+                ul {
+                    li {
+                        padding: 10px 0;
+                        &.title {
+                            padding-bottom: 20px;
+                            a{
+                                font-size: 18px;
+                                font-weight: 700;
+                                color: #000;
+                            }
+                        }
+                        
+                    }
+                }
+                &:first-child{//NEW&FEATURED 있는 열
+                    width: 350px;
+                    border-right: 1px solid #ccc;
+                }
+                &:last-child {
+                    width: 350px;
+                    padding-left: 60px;
+                    border-left: 1px solid #ccc;
+                }
+           }
+
+           &.brand {
+            padding: 40px;
+            ul {
+                display: flex;
+                li {
+                    width: 20%;
+                    padding: 0 15px;
+                    .img-box {
+                        width: 100%;
+                        overflow: hidden;
+                        img {
+                            width: 100%;
+                            transition: all 0.5s;
+                            &:hover {
+                                transform: scale(1.1);
+                            }
+                        }
+                    }
+                    .text-box {
+                        margin-top: 10px;
+                        text-align: center;
+                        a {
+                            font-weight: 700;
+                            font-size: 18px;
+                            color: #000;
+                            
+                        }
+                    }
+                }
+            }
+        } 
+        } 
+    }
+}

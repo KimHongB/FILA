@@ -1,0 +1,154 @@
+#wrap {
+  width: 100%;
+}
+#wrap footer {
+  width: 100%;
+  background: #eee;
+}
+#wrap footer .container {
+  width: 100%;
+}
+#wrap footer .container .gap {
+  width: 100%;
+  padding: 50px;
+}
+#wrap footer .container .gap .content {
+  width: 100%;
+}
+#wrap footer .container .gap .content .top-box {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+#wrap footer .container .gap .content .top-box span {
+  margin-left: 120px;
+  font-size: 15px;
+  font-size: 500;
+  color: #000;
+}
+#wrap footer .container .gap .content .top-box .link-box a {
+  padding: 0 20px;
+}
+#wrap footer .container .gap .content .bot-box {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 200px;
+  padding-top: 100px;
+}
+#wrap footer .container .gap .content .bot-box .center-left-box .row1 {
+  padding-bottom: 40px;
+}
+#wrap footer .container .gap .content .bot-box .center-left-box .row1 a {
+  font-size: 14px;
+  font-weight: 600;
+  color: #444;
+}
+#wrap footer .container .gap .content .bot-box .center-left-box .row1 i {
+  padding: 0 20px;
+}
+#wrap footer .container .gap .content .bot-box .center-left-box .row2 p {
+  position: relative;
+  padding-bottom: 30px;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.4);
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+}
+#wrap footer .container .gap .content .bot-box .center-left-box .row2 p a {
+  font-size: 12px;
+  text-decoration: underline;
+}
+#wrap footer .container .gap .content .bot-box .center-left-box .row2 p .more-info {
+  font-size: 12px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+#wrap footer .container .gap .content .bot-box .center-left-box .row2 p .more-info .img-box {
+  visibility: hidden;
+  position: absolute;
+  bottom: 48px;
+  left: 0;
+  opacity: 0;
+  transition: all 0.3s;
+}
+#wrap footer .container .gap .content .bot-box .center-left-box .row2 p .more-info:hover .img-box {
+  visibility: visible;
+  opacity: 1;
+}
+#wrap footer .container .gap .content .bot-box .center-left-box .row3 a {
+  font-size: 14px;
+  font-weight: 600;
+  color: #444;
+}
+#wrap footer .container .gap .content .bot-box .center-left-box .row3 i {
+  padding: 0 20px;
+}
+#wrap footer .container .gap .content .bot-box .center-right-box {
+  width: 30%;
+}
+#wrap footer .container .gap .content .bot-box .center-right-box .cscenter-box {
+  width: 100%;
+}
+#wrap footer .container .gap .content .bot-box .center-right-box .cscenter-box .cs-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 120px;
+  height: 30px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 30px;
+  transition: all 0.3s;
+}
+#wrap footer .container .gap .content .bot-box .center-right-box .cscenter-box .cs-link:hover {
+  background: #002965;
+  color: #fff;
+}
+#wrap footer .container .gap .content .bot-box .center-right-box .cscenter-box p {
+  font-size: 32px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 10px;
+}
+#wrap footer .container .gap .content .bot-box .center-right-box .cscenter-box .mail-link {
+  font-size: 32px;
+  font-weight: 700;
+  color: #000;
+}
+#wrap footer .container .gap .content .bot-box .center-right-box .cscenter-box .cs-hours {
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.4);
+}
+#wrap footer .container .gap .content .bot-box .center-right-box .select-box {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 80px;
+}
+#wrap footer .container .gap .content .bot-box .center-right-box .select-box .lang-btn {
+  display: block;
+  padding-right: 100px;
+  font-weight: 600;
+  color: #000;
+}
+#wrap footer .container .gap .content .bot-box .center-right-box .select-box select {
+  width: 50%;
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+  border: none;
+  background: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: url(../img/pjh/intro/footer/top-arrow.svg) no-repeat 100% 50%;
+}
+#wrap footer .container .gap .content .bot-box .center-right-box .select-box select:focus {
+  outline: none;
+}

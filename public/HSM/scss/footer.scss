@@ -1,0 +1,173 @@
+#wrap {
+    width:100%;
+    footer {
+        width:100%;
+        background: #eee;
+        .container {
+            width:100%;
+            .gap {
+                width:100%;
+                padding: 50px;
+                .content {
+                    width:100%;
+                    .top-box {
+                        display: flex;
+                        justify-content: space-between;
+                        width:100%;
+                        .fila-box {
+                            a {
+                                img {}
+                            }
+                            span {}
+                        }
+                        span {
+                            margin-left: 120px;//botbox의 왼쪽 패딩이 200px=FILA이미지 80px+왼쪽 마진 120px
+                            font-size: 15px;
+                            font-size: 500;
+                            color: #000;
+                        }
+                        .link-box {
+                            a {
+                                padding: 0 20px;
+                            }
+                        }
+                    }
+                    .bot-box {
+                        display: flex;
+                        justify-content: space-between;
+                        padding-left: 200px;
+                        padding-top: 100px;
+                        .center-left-box {
+                            .row1 {
+                                padding-bottom: 40px;
+                                a {
+                                    font-size: 14px;
+                                    font-weight: 600;
+                                    color: #444;
+                                }
+                                i {
+                                    padding: 0 20px;
+                                }
+                            }
+                            .row2 {
+                                p {
+                                    position: relative;
+                                    padding-bottom: 30px;
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    color: rgba(0, 0, 0, 0.4);
+                                    line-height: 1.6;
+                                    letter-spacing: 0.5px;
+                                    a {
+                                        font-size: 12px;
+                                        text-decoration: underline;
+                                    }
+                                    .more-info {
+                                        font-size: 12px;
+                                        text-decoration: underline;
+                                        cursor: pointer;
+                                        .img-box {
+                                            visibility: hidden;
+                                            position: absolute;
+                                            bottom: 48px;//패딩 30px+줄높이 18px
+                                            left: 0;
+                                            opacity: 0;
+                                            transition: all 0.3s;
+                                        }
+                                        &:hover {
+                                            .img-box {
+                                                visibility: visible;
+                                                opacity: 1;
+                                            }
+                                        }
+                                    }
+                                }
+                                
+                            }
+                            .row3 {
+                                a {
+                                    font-size: 14px;
+                                    font-weight: 600;
+                                    color: #444;
+                                }
+                                i {
+                                    padding: 0 20px;
+                                }
+                            }
+                            
+                        }
+                        .center-right-box {
+                            width: 30%;
+                            .cscenter-box {
+                                width: 100%;
+                                .cs-link {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    margin-bottom: 20px;
+                                    width: 120px;
+                                    height: 30px;
+                                    font-size: 14px;
+                                    font-weight: 700;
+                                    color: #000;
+                                    border: 1px solid #000;
+                                    border-radius: 30px;
+                                    transition: all 0.3s;
+                                    &:hover {
+                                        background: #002965;
+                                        color: #fff;
+                                    }
+                                }
+                                p {
+                                    font-size: 32px;
+                                    font-weight: 700;
+                                    color: #000;
+                                    margin-bottom: 10px;
+
+                                }
+                                .mail-link {
+                                    font-size: 32px;
+                                    font-weight: 700;
+                                    color: #000;
+                                }
+                                .cs-hours {
+                                    margin-top: 20px;
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    color: rgba(0, 0, 0, 0.4);
+                                }
+                            }
+                            .select-box {
+                                display: flex;
+                                justify-content: space-between;
+                                width: 100%;
+                                padding-top: 80px;
+                                .lang-btn {
+                                    display: block;
+                                    padding-right: 100px;
+                                    font-weight: 600;
+                                    color: #000;
+                                }
+                                select {
+                                    width: 50%;
+                                    font-size: 14px;
+                                    font-weight: 600;
+                                    color: #000;
+                                    border: none;
+                                    background: none;
+                                    appearance: none;
+                                    background: url(../img/pjh/intro/footer/top-arrow.svg) no-repeat 100% 50%;
+                                    &:focus {
+                                        outline: none;
+                                    }
+                                    option {
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

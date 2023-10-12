@@ -1,0 +1,724 @@
+#signUp {
+  width: 100%;
+  padding: 60px 0 0 0;
+}
+#signUp .container {
+  width: 100%;
+  padding: 50px 0;
+}
+#signUp .container .gap {
+  width: 100%;
+}
+#signUp .container .gap .title {
+  width: 100%;
+}
+#signUp .container .gap .title h2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #000;
+  text-align: center;
+}
+#signUp .container .gap .content {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+#signUp .container .gap .content form {
+  margin-top: 44px;
+}
+#signUp .container .gap .content form .box1 {
+  border-bottom: 1px solid #000;
+}
+#signUp .container .gap .content form .box1 p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #000;
+}
+#signUp .container .gap .content form .box1 .kakao-btn {
+  margin-top: 27px;
+  background-color: rgb(254, 220, 0);
+  border-radius: 30px;
+  box-sizing: border-box;
+  height: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#signUp .container .gap .content form .box1 .kakao-btn span {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
+}
+#signUp .container .gap .content form .box1 .kakao-btn img {
+  position: absolute;
+  left: 20px;
+}
+#signUp .container .gap .content form .box2 .tit {
+  margin: 55px 0 27px 0;
+}
+#signUp .container .gap .content form .box2 .tit h3 {
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+}
+#signUp .container .gap .content form .box2 .input-box {
+  width: 100%;
+}
+#signUp .container .gap .content form .box2 .input-box li {
+  height: 50px;
+  margin-top: 10px;
+}
+#signUp .container .gap .content form .box2 .input-box li input {
+  width: 100%;
+  max-width: 480px;
+  height: 100%;
+  padding: 0 64px 0 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+}
+#signUp .container .gap .content form .box2 .input-box li select {
+  width: 110px;
+  height: 100%;
+  padding: 0 43px 0 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #999;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: url(../img/KHB/signup/arr_down.png) 80% 50% no-repeat;
+}
+#signUp .container .gap .content form .box2 .input-box li.name {
+  display: flex;
+}
+#signUp .container .gap .content form .box2 .input-box li.name input {
+  width: 100%;
+  margin-right: 10px;
+}
+#signUp .container .gap .content form .box2 .input-box li.name select {
+  position: relative;
+}
+#signUp .container .gap .content form .box2 .input-box li.name img {
+  width: 9px;
+  height: 6px;
+}
+#signUp .container .gap .content form .box2 .input-box li.birth {
+  display: flex;
+}
+#signUp .container .gap .content form .box2 .input-box li.birth input {
+  width: 100%;
+  margin-right: 10px;
+}
+#signUp .container .gap .content form .box2 .input-box li.birth select {
+  position: relative;
+}
+#signUp .container .gap .content form .box2 .input-box li.hp {
+  display: flex;
+}
+#signUp .container .gap .content form .box2 .input-box li.hp select {
+  width: 145px;
+  margin-right: 10px;
+}
+#signUp .container .gap .content form .box2 .input-box li.hp select:nth-child(1) {
+  border-color: #000;
+  color: #000;
+}
+#signUp .container .gap .content form .box2 .input-box li.hp input {
+  width: 330px;
+}
+#signUp .container .gap .content form .box2 .input-box li.hp input#userHp {
+  display: none;
+}
+#signUp .container .gap .content form .box2 .input-box li.hp button {
+  margin-left: 10px;
+  width: 110px;
+  height: 50px;
+  border-radius: 5px;
+  outline: 0;
+  background-color: #fff;
+  border: 1px solid #000;
+  transition: all 0.3s;
+  font-size: 15px;
+  font-weight: 700;
+}
+#signUp .container .gap .content form .box2 .input-box li.hp button:hover {
+  background-color: #002053;
+  color: #fff;
+}
+#signUp .container .gap .content form .box2 .input-box .error-msg {
+  display: none;
+}
+#signUp .container .gap .content form .box2 .input-box .error-msg.on {
+  padding-top: 5px;
+  font-size: 12px;
+  display: block;
+  color: #ff0000;
+}
+#signUp .container .gap .content form .box4 {
+  position: relative;
+  display: flex;
+  margin-top: 10px;
+}
+#signUp .container .gap .content form .box4 input {
+  width: 490px;
+  height: 50px;
+  padding: 0 64px 0 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+}
+#signUp .container .gap .content form .box4 .hp-timer-counter {
+  position: absolute;
+  right: 150px;
+  top: 0;
+  z-index: 2;
+  display: none;
+  align-items: center;
+  height: 50px;
+  color: #f03f40;
+  letter-spacing: 1px;
+}
+#signUp .container .gap .content form .box4 .hp-timer-counter.on {
+  display: flex;
+}
+#signUp .container .gap .content form .box4 button {
+  margin-left: 10px;
+  width: 110px;
+  height: 50px;
+  border-radius: 5px;
+  outline: 0;
+  background-color: #fff;
+  border: 1px solid #000;
+  transition: all 0.3s;
+  font-size: 15px;
+  font-weight: 700;
+}
+#signUp .container .gap .content form .box4 button:hover {
+  background-color: #002053;
+  color: #fff;
+}
+#signUp .container .gap .content form .box5 {
+  margin-top: 10px;
+}
+#signUp .container .gap .content form .box5 button {
+  width: 600px;
+  height: 60px;
+  border-radius: 30px;
+  outline: 0;
+  background-color: #fff;
+  border: 1px solid #000;
+  transition: all 0.3s;
+}
+#signUp .container .gap .content form .box5 button h2 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 58px;
+}
+#signUp .container .gap .content form .box5 button:hover {
+  background-color: #002053;
+  color: #fff;
+}
+#signUp .container .gap .content form .center-box {
+  width: 100%;
+}
+#signUp .container .gap .content form .center-box > ul {
+  width: 100%;
+}
+#signUp .container .gap .content form .center-box > ul > li {
+  width: 100%;
+}
+#signUp .container .gap .content form .center-box > ul > li label {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  padding: 20px 0;
+  cursor: pointer;
+}
+#signUp .container .gap .content form .center-box > ul > li input {
+  height: 25px;
+  width: 21px;
+  margin: 0 10px 0 0;
+  display: block;
+  cursor: pointer;
+}
+#signUp .container .gap .content form .center-box > ul > li input[type=checkbox] {
+  background: url(../../../../../public/img/HSM/signup/off.svg);
+  margin: 0 10px 0 0;
+}
+#signUp .container .gap .content form .center-box > ul > li img {
+  width: 12px;
+  transition: all 0.3s;
+}
+#signUp .container .gap .content form .center-box > ul > li img.on {
+  transform: rotate(-180deg);
+}
+#signUp .container .gap .content form .center-box > ul li:nth-child(1) {
+  display: inline-flex;
+  align-items: center;
+  justify-content: left;
+  font-weight: 600;
+}
+#signUp .container .gap .content form .center-box > ul > ul {
+  width: 100%;
+  display: none;
+}
+#signUp .container .gap .content form .center-box > ul > ul.on {
+  display: block;
+}
+#signUp .container .gap .content form .center-box > ul > ul > li {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+#signUp .container .gap .content form .center-box > ul > ul > li input {
+  height: 25px;
+  width: 20px;
+  margin: 0 10px 0 0;
+}
+#signUp .container .gap .content form .center-box > ul > ul > li label {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  padding: 10px 0;
+}
+#signUp .container .gap .content form .box5 {
+  margin: 10px 0 60px 0;
+}
+#signUp .container .gap .content form .box5 button {
+  width: 600px;
+  height: 60px;
+  border-radius: 30px;
+  outline: 0;
+  background-color: #fff;
+  border: 1px solid #000;
+  transition: all 0.3s;
+}
+#signUp .container .gap .content form .box5 button h2 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 58px;
+}
+#signUp .container .gap .content form .box5 button:hover {
+  background-color: #002053;
+  color: #fff;
+}
+#signUp .container .gap .content form .title2 {
+  border-top: 1px solid #eee;
+}
+#signUp .container .gap .content form .title2 h2 {
+  margin: 55px 0 27px 0;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  color: #000;
+}
+#signUp .container .gap .content form .content2 {
+  width: 100%;
+  padding: 0 0 80px 0;
+  border-bottom: 1px solid #000;
+}
+#signUp .container .gap .content form .content2 label {
+  display: flex;
+  width: 600px;
+  padding: 5px 0;
+  outline-offset: -1px;
+  position: relative;
+}
+#signUp .container .gap .content form .content2 label:focus {
+  outline-offset: 1px;
+}
+#signUp .container .gap .content form .content2 label input {
+  position: relative;
+  border: 0;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding: 5px 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  padding: 0 64px 0 20px;
+  width: 600px;
+  height: 50px;
+}
+#signUp .container .gap .content form .content2 label.pwImg img {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  right: 0;
+  width: 24px;
+  transform: translate(-100%, -50%);
+}
+#signUp .container .gap .content form .content2 label > button {
+  margin: 0 0 0 10px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 106px;
+  height: 50px;
+  border: 0;
+  border: 1px solid #000;
+  color: #000;
+  border-radius: 5px;
+  background: #fff;
+  cursor: pointer;
+  padding: 0 5px;
+  transition: all 0.3s;
+}
+#signUp .container .gap .content form .content2 label > button:hover {
+  color: #fff;
+  background: rgb(0, 41, 101);
+}
+#signUp .container .gap .content form .content2 p {
+  color: #f03f40;
+  font-size: 12px;
+  font-weight: 500;
+  display: none;
+  padding: 0 0 20px 0;
+  letter-spacing: -0.5px;
+}
+#signUp .container .gap .content form .content2 p.on {
+  display: block;
+}
+#signUp .container .gap .content form .content2 .addr-box {
+  padding-top: 30px;
+}
+#signUp .container .gap .content form .content2 .addr-box h3 {
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+}
+#signUp .container .gap .content form .content2 .addr-box .addr-search-btn {
+  display: block;
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: #002053;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+#signUp .container .gap .content form .content2 .addr-box .addr-search-btn.off {
+  display: none;
+}
+#signUp .container .gap .content form .content2 .addr-box > input {
+  display: none;
+  position: relative;
+  border: 0;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  margin: 20px 0;
+  padding: 5px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  padding: 0 64px 0 20px;
+  width: 600px;
+  height: 50px;
+}
+#signUp .container .gap .content form .content2 .addr-box > input.on {
+  display: block;
+}
+#signUp .container .gap .content form .signup-section3 {
+  width: 100%;
+  position: relative;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #000;
+}
+#signUp .container .gap .content form .signup-section3 .title3 {
+  width: 100%;
+  margin: 55px 0 27px;
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.5;
+}
+#signUp .container .gap .content form .signup-section3 .title3 h2 {
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+}
+#signUp .container .gap .content form .signup-section3 > a {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#signUp .container .gap .content form .signup-section3 > a .pm {
+  position: relative;
+  margin-left: 14px;
+  display: inline-block;
+  width: 10px;
+  height: 2px;
+  background-color: rgb(0, 0, 0);
+  vertical-align: 5px;
+  transition: all 0.3s;
+}
+#signUp .container .gap .content form .signup-section3 > a .pm.on::before {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+#signUp .container .gap .content form .signup-section3 > a .pm::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 25%;
+  right: 25%;
+  width: 2px;
+  height: 10px;
+  background-color: rgb(0, 0, 0);
+  transform: translate(-50%, -50%) rotate(0deg);
+  transition: all 0.3s;
+}
+#signUp .container .gap .content form .signup-section3 .content3 {
+  width: 100%;
+  overflow: hidden;
+  display: none;
+}
+#signUp .container .gap .content form .signup-section3 .content3.on {
+  display: block;
+}
+#signUp .container .gap .content form .signup-section3 .content3 ul {
+  width: 100%;
+}
+#signUp .container .gap .content form .signup-section3 .content3 ul li {
+  width: 100%;
+}
+#signUp .container .gap .content form .signup-section3 .content3 ul li button {
+  width: 100%;
+  height: 60px;
+  font-size: 16px;
+  border-radius: 5px;
+  color: #000;
+  border: 1px solid #ddd;
+  background: #fff;
+  cursor: pointer;
+  margin: 27px 0 0 0;
+}
+#signUp .container .gap .content form .signup-section3 .content3 ul li input {
+  width: 100%;
+  padding: 0 64px 0 20px;
+  height: 50px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  outline-offset: -1px;
+}
+#signUp .container .gap .content form .signup-section3 .content3 ul li input:focus {
+  outline: 1px solid #000;
+}
+#signUp .container .gap .content form .signup-section3 .content3 ul li.row2 {
+  display: flex;
+  margin-top: 10px;
+}
+#signUp .container .gap .content form .signup-section3 .content3 ul li.row2 input {
+  width: 480px;
+  margin-right: 10px;
+}
+#signUp .container .gap .content form .signup-section3 .content3 ul li.row2 select {
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 110px;
+  padding: 0 0 0 20px;
+  border-radius: 5px;
+  outline-offset: -1px;
+  border: 1px solid #ddd;
+  color: #999;
+}
+#signUp .container .gap .content form .signup-section3 .content3 ul li.row2 select:focus {
+  outline: 1px solid #000;
+}
+#signUp .container .gap .content form .signup-section3 .content3 ul li.row2 select option {
+  font-size: 16px;
+  font-weight: 400;
+  color: #999;
+}
+#signUp .container .gap .content form .signup-section3 .content3 .under-text {
+  margin-top: 15px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#signUp .container .gap .content form .signup-section3 .content3 .under-text p {
+  color: #999;
+}
+#signUp .container .gap .content form .signup-section3 .content3 .under-text a {
+  color: #999;
+  font-size: 14px;
+  text-decoration: underline;
+}
+#signUp .container .gap .content form #signup_section4 {
+  width: 100%;
+}
+#signUp .container .gap .content form #signup_section4 .title4 {
+  padding-bottom: 20px;
+}
+#signUp .container .gap .content form #signup_section4 .title4 h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+}
+#signUp .container .gap .content form #signup_section4 .content4 {
+  width: 100%;
+}
+#signUp .container .gap .content form #signup_section4 .content4 .agree-all {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+#signUp .container .gap .content form #signup_section4 .content4 .agree-all .checkbox-box {
+  position: relative;
+}
+#signUp .container .gap .content form #signup_section4 .content4 .agree-all .checkbox-box label {
+  padding-left: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  cursor: pointer;
+}
+#signUp .container .gap .content form #signup_section4 .content4 .agree-all .checkbox-box label::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 20px;
+  height: 20px;
+  background: url(../../img/pjh/user/checkbox_off_20x20.png) no-repeat 50% 50%;
+}
+#signUp .container .gap .content form #signup_section4 .content4 .agree-all .checkbox-box input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+#signUp .container .gap .content form #signup_section4 .content4 .agree-all .checkbox-box input[type=checkbox]:checked + label::before {
+  background: url(../../img/pjh/user/checkbox_on_20x20.png) no-repeat 50% 50%;
+}
+#signUp .container .gap .content form #signup_section4 .content4 .agree-all .arrow-btn {
+  cursor: pointer;
+  width: 50px;
+  border: none;
+  background: url(../../img/pjh/user/arrow.svg) no-repeat 100% 50%;
+}
+#signUp .container .gap .content form #signup_section4 .content4 .agree-all .arrow-btn.on {
+  background-position-x: 0%;
+  transform: rotate(-180deg);
+}
+#signUp .container .gap .content form #signup_section4 .content4 .agree-box {
+  width: 100%;
+  padding-left: 30px;
+}
+#signUp .container .gap .content form #signup_section4 .content4 .agree-box.on {
+  display: block;
+}
+#signUp .container .gap .content form #signup_section4 .content4 .agree-box ul {
+  width: 100%;
+}
+#signUp .container .gap .content form #signup_section4 .content4 .agree-box ul li {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 0;
+}
+#signUp .container .gap .content form #signup_section4 .content4 .agree-box ul li.user-optional-all-box {
+  display: block;
+}
+#signUp .container .gap .content form #signup_section4 .content4 .agree-box ul li.user-optional-all-box p {
+  padding: 20px 0 0 30px;
+}
+#signUp .container .gap .content form #signup_section4 .content4 .agree-box ul li.SMS-and-Email {
+  display: block;
+}
+#signUp .container .gap .content form #signup_section4 .content4 .agree-box ul li.SMS-and-Email label {
+  margin-right: 10px;
+}
+#signUp .container .gap .content form #signup_section4 .content4 .agree-box ul li.SMS-and-Email p {
+  padding-top: 30px;
+  font-size: 16px;
+  color: #999;
+  line-height: 1.2;
+}
+#signUp .container .gap .content form #signup_section4 .content4 .agree-box ul li > label {
+  position: relative;
+  padding-left: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  cursor: pointer;
+}
+#signUp .container .gap .content form #signup_section4 .content4 .agree-box ul li > label::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 20px;
+  height: 20px;
+  background: url(../../img/pjh/user/checkbox_off_20x20.png) no-repeat 50% 50%;
+}
+#signUp .container .gap .content form #signup_section4 .content4 .agree-box ul li > label .just-text {
+  flex-grow: 1;
+}
+#signUp .container .gap .content form #signup_section4 .content4 .agree-box ul li > label .red-mark {
+  color: #d6001f;
+  vertical-align: top;
+}
+#signUp .container .gap .content form #signup_section4 .content4 .agree-box ul li input {
+  display: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+#signUp .container .gap .content form #signup_section4 .content4 .agree-box ul li input[type=checkbox]:checked + label::before {
+  background: url(../../img/pjh/user/checkbox_on_20x20.png) no-repeat 50% 50%;
+}
+#signUp .container .gap .content form #signup_section4 .content4 .agree-box ul li a {
+  color: #999;
+  text-decoration: underline;
+  cursor: pointer;
+  justify-content: flex-end;
+}
+#signUp .container .gap .content form #signup_section4 .content4 .submit-box {
+  width: 100%;
+  padding: 40px 0;
+  border-top: 1px solid #000;
+}
+#signUp .container .gap .content form #signup_section4 .content4 .submit-box p {
+  font-size: 16px;
+  color: #999;
+}
+#signUp .container .gap .content form #signup_section4 .content4 .submit-box .btn-box {
+  width: 100%;
+  height: 60px;
+  padding-top: 100px;
+}
+#signUp .container .gap .content form #signup_section4 .content4 .submit-box .btn-box > button {
+  width: 100%;
+  height: 60px;
+  border: none;
+  border-radius: 60px;
+  background: #002053;
+  color: #fff;
+  line-height: 58px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}

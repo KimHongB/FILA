@@ -1,0 +1,102 @@
+#tenis {
+  padding: 150px 0;
+}
+#tenis .container {
+  width: 100%;
+}
+#tenis .container .title {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 50px 40px;
+  justify-content: space-between;
+}
+#tenis .container .title .left-txt h2 {
+  font-size: 36px;
+  line-height: 54px;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+}
+#tenis .container .title .right-txt a {
+  display: inline-block;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 50px;
+  border: 1px solid #eee;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-align: center;
+}
+#tenis .container .title .right-txt a:hover {
+  background-color: #002965;
+  color: #fff;
+}
+#tenis .container .content {
+  width: 100%;
+}
+#tenis .container .content ul {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+#tenis .container .content ul li {
+  width: 25%;
+}
+#tenis .container .content ul li .img-box {
+  width: 100%;
+  padding: 0 5px;
+  transition: all 0.3s;
+  overflow: hidden;
+}
+#tenis .container .content ul li .img-box:hover img {
+  transition: all 0.3s;
+  transform: scale(1.1);
+  filter: brightness(0.5);
+}
+#tenis .container .content ul li .img-box a img {
+  width: 100%;
+}
+#tenis .container .content ul li .txt-box {
+  margin: 29px 0 0 0;
+  display: block;
+  background: #fff;
+}
+#tenis .container .content ul li .txt-box ul {
+  width: 100%;
+}
+#tenis .container .content ul li .txt-box ul li {
+  width: 100%;
+}
+#tenis .container .content ul li .txt-box ul li .tit {
+  margin: 0 0 26px 0;
+  cursor: pointer;
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
+#tenis .container .content ul li .txt-box ul li .category {
+  font-size: 14px;
+  line-height: 21px;
+  cursor: pointer;
+  color: #000;
+}
+#tenis .container .content ul li .txt-box ul li .txt {
+  font-size: 16px;
+  line-height: 28px;
+  color: #999;
+  cursor: pointer;
+}
+#tenis .container .content ul li .txt-box ul li:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+}

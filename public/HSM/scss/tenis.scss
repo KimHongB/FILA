@@ -1,0 +1,113 @@
+#tenis{
+    padding: 150px 0;
+    .container{
+        width: 100%;
+        .title {
+            width: 100%;
+            max-width: 1500px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            padding: 50px 40px;
+            justify-content: space-between;
+            .left-txt {
+                h2 {
+                font-size: 36px;
+                line-height: 54px;
+                font-weight: 700;
+                color: #000;
+                text-align: center;
+                }
+            }
+            .right-txt {
+                a {
+                    display: inline-block;
+                    box-sizing: border-box;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100px;
+                    height: 48px;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 50px;
+                    border: 1px solid #eee;
+                    border-radius: 50px;
+                    cursor: pointer;
+                    transition: all 0.3s;
+                    text-align: center;
+                    &:hover {
+                        background-color: #002965;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        .content{
+            width: 100%;
+            ul{
+                width: 100%;
+                display: flex;
+                flex-flow: row wrap;
+                li{
+                   width: calc(100% / 4);
+
+                    .img-box{
+                            width: 100%;
+                            padding: 0 5px;
+                            transition: all 0.3s;
+                            overflow: hidden;
+                            &:hover{
+                                img{
+                                    transition: all 0.3s;
+                                    transform: scale(1.1);
+                                    filter: brightness(0.5);
+                                }
+                            }
+                        a{
+                            img{
+                                width: 100%;
+                            }
+                        }
+                    }
+                    .txt-box{
+                        margin: 29px 0 0 0;
+                        display: block;
+                        background: #fff;
+                        ul{
+                            width: 100%;
+                            li{
+                                width: 100%;
+                                    .tit{
+                                        margin: 0 0  26px 0;
+                                        cursor: pointer;
+                                        color: #000;
+                                        font-size: 20px ;
+                                        font-weight: 700;
+                                        line-height: 30px;
+                                    }
+                                    .category{
+                                        font-size: 14px;
+                                        line-height: 21px;
+                                        cursor: pointer;
+                                        color: #000;
+                                    }
+                                    .txt{
+                                        font-size: 16px;
+                                        line-height: 28px;
+                                        color: #999;
+                                        cursor: pointer;
+                                    }
+                                    &:nth-child(1){
+                                        display: flex;
+                                        justify-content: space-between;
+                                    }
+
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+}

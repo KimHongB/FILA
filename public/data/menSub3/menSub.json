@@ -1,0 +1,36 @@
+{
+    "백팩": [
+      {"제품코드":"PRODUCT0001","이미지":"fila_women_backpack_img027.jpg","이미지2":"fila_women_backpack_img028.jpg","성별설명":"공용","상품명":"WHITE LINE 라켓 백팩","정가":129000,"할인율":0,"장바구니":"장바구니담기"},
+      {"제품코드":"PRODUCT0002","이미지":"fila_women_backpack_img032.jpg","이미지2":"fila_women_backpack_img033.jpg","성별설명":"공용","상품명":"WHITE LINE 라켓 백팩","정가":129000,"할인율":0,"장바구니":"장바구니담기"},
+      {"제품코드":"PRODUCT0003","이미지":"fila_women_backpack_img036.jpg","이미지2":"fila_women_backpack_img037.jpg","성별설명":"공용","상품명":"뉴코어 백팩","정가":69000,"할인율":0,"장바구니":"장바구니담기"},
+      {"제품코드":"PRODUCT0004","이미지":"fila_women_backpack_img040.jpg","이미지2":"fila_women_backpack_img041.jpg","성별설명":"공용","상품명":"뉴코어 백팩","정가":69000,"할인율":0,"장바구니":"장바구니담기"},
+      {"제품코드":"PRODUCT0005","이미지":"fila_women_backpack_img044.jpg","이미지2":"fila_women_backpack_img045.jpg","성별설명":"공용","상품명":"FILA 파티션 백팩","정가":139000,"할인율":0,"장바구니":"장바구니담기"},
+      {"제품코드":"PRODUCT0006","이미지":"fila_women_backpack_img048.jpg","이미지2":"fila_women_backpack_img049.jpg","성별설명":"공용","상품명":"FILA 파티션 백팩","정가":139000,"할인율":0,"장바구니":"장바구니담기"},
+      {"제품코드":"PRODUCT0007","이미지":"fila_women_backpack_img052.jpg","이미지2":"fila_women_backpack_img053.jpg","성별설명":"공용","상품명":"FILA 파티션 PRO 백팩","정가":159000,"할인율":0,"장바구니":"장바구니담기"},
+      {"제품코드":"PRODUCT0008","이미지":"fila_women_backpack_img056.jpg","이미지2":"fila_women_backpack_img057.jpg","성별설명":"공용","상품명":"FILA 파티션 PRO 백팩","정가":159000,"할인율":0,"장바구니":"장바구니담기"},
+      {"제품코드":"PRODUCT0009","이미지":"fila_women_backpack_img060.jpg","이미지2":"fila_women_backpack_img060.jpg","성별설명":"공용","상품명":"FILA 파티션 백팩","정가":139000,"할인율":0,"장바구니":"장바구니담기"},
+      {"제품코드":"PRODUCT0010","이미지":"fila_women_backpack_img063.jpg","이미지2":"fila_women_backpack_img064.jpg","성별설명":"공용","상품명":"FILA 엔트리 백팩","정가":89000,"할인율":0,"장바구니":"장바구니담기"},
+      {"제품코드":"PRODUCT0011","이미지":"fila_women_backpack_img067.jpg","이미지2":"fila_women_backpack_img068.jpg","성별설명":"공용","상품명":"FILA 엔트리 백팩","정가":89000,"할인율":0,"장바구니":"장바구니담기"},
+      {"제품코드":"PRODUCT0012","이미지":"fila_women_backpack_img071.jpg","이미지2":"fila_women_backpack_img072.jpg","성별설명":"공용","상품명":"FILA 엔트리 백팩","정가":89000,"할인율":0,"장바구니":"장바구니담기"},
+      {"제품코드":"PRODUCT0013","이미지":"fila_women_backpack_img075.jpg","이미지2":"fila_women_backpack_img076.jpg","성별설명":"공용","상품명":"FILA 스트링 백팩","정가":119000,"할인율":0,"장바구니":"장바구니담기"},
+      {"제품코드":"PRODUCT0014","이미지":"fila_women_backpack_img079.jpg","이미지2":"fila_women_backpack_img080.jpg","성별설명":"공용","상품명":"FILA 스트링 백팩","정가":119000,"할인율":0,"장바구니":"장바구니담기"},
+      {"제품코드":"PRODUCT0015","이미지":"fila_women_backpack_img083.jpg","이미지2":"fila_women_backpack_img084.jpg","성별설명":"공용","상품명":"FILA 파티션 PRO 백팩","정가":159000,"할인율":0,"장바구니":"장바구니담기"},
+      {"제품코드":"PRODUCT0016","이미지":"fila_women_backpack_img087.jpg","이미지2":"fila_women_backpack_img088.jpg","성별설명":"공용","상품명":"FILA 파티션 백팩","정가":139000,"할인율":0,"장바구니":"장바구니담기"},
+      {"제품코드":"PRODUCT0017","이미지":"fila_women_backpack_img090.jpg","이미지2":"fila_women_backpack_img091.jpg","성별설명":"공용","상품명":"FILA 챌린지 백팩","정가":129000,"할인율":0,"장바구니":"장바구니담기"},
+      {"제품코드":"PRODUCT0018","이미지":"fila_women_backpack_img094.jpg","이미지2":"fila_women_backpack_img095.jpg","성별설명":"공용","상품명":"FILA 챌린지 백팩","정가":129000,"할인율":0,"장바구니":"장바구니담기"},
+      {"제품코드":"PRODUCT0019","이미지":"fila_women_backpack_img098.jpg","이미지2":"fila_women_backpack_img099.jpg","성별설명":"공용","상품명":"뉴 데이원 백팩","정가":119000,"할인율":0,"장바구니":"장바구니담기"},
+      {"제품코드":"PRODUCT0020","이미지":"fila_women_backpack_img102.jpg","이미지2":"fila_women_backpack_img103.jpg","성별설명":"공용","상품명":"뉴 데이원 백팩","정가":119000,"할인율":0,"장바구니":"장바구니담기"},
+      {"제품코드":"PRODUCT0021","이미지":"fila_women_backpack_img106.jpg","이미지2":"fila_women_backpack_img107.jpg","성별설명":"공용","상품명":"LINK 23 백팩","정가":139000,"할인율":0,"장바구니":"장바구니담기"},
+      {"제품코드":"PRODUCT0022","이미지":"fila_women_backpack_img110.jpg","이미지2":"fila_women_backpack_img111.jpg","성별설명":"공용","상품명":"LINK 23 백팩","정가":139000,"할인율":0,"장바구니":"장바구니담기"},
+      {"제품코드":"PRODUCT0023","이미지":"fila_women_backpack_img114.jpg","이미지2":"fila_women_backpack_img115.jpg","성별설명":"공용","상품명":"<무신사단독> FILA 파티션 플래시 백팩","정가":139000,"할인율":0,"장바구니":"장바구니담기"},
+      {"제품코드":"PRODUCT0024","이미지":"fila_women_backpack_img118.jpg","이미지2":"fila_women_backpack_img119.jpg","성별설명":"공용","상품명":"스몰로고 코트백팩","정가":55000,"할인율":0,"장바구니":"장바구니담기"}
+    ],
+    "메신저백": [
+      {"제품코드":"PRODUCT0025","이미지":"FILA_women_messengerBag18.jpg","이미지2":"FILA_women_messengerBag19.jpg","성별설명":"공용","상품명":"FAZELON 메신저백","정가":109000,"할인율":0.3,"장바구니":"장바구니담기"},
+      {"제품코드":"PRODUCT0026","이미지":"FILA_women_messengerBag23.jpg","이미지2":"FILA_women_messengerBag24.jpg","성별설명":"공용","상품명":"리니어 미듐 메신저백","정가":69000,"할인율":0,"장바구니":"장바구니담기"},
+      {"제품코드":"PRODUCT0027","이미지":"FILA_women_messengerBag27.jpg","이미지2":"FILA_women_messengerBag28.jpg","성별설명":"공용","상품명":"리니어 미듐 메신저백","정가":69000,"할인율":0,"장바구니":"장바구니담기"},
+      {"제품코드":"PRODUCT0028","이미지":"FILA_women_messengerBag31.jpg","이미지2":"FILA_women_messengerBag32.jpg","성별설명":"공용","상품명":"베이직 메신저백","정가":99000,"할인율":0.3,"장바구니":"장바구니담기"},
+      {"제품코드":"PRODUCT0029","이미지":"FILA_women_messengerBag35.jpg","이미지2":"FILA_women_messengerBag36.jpg","성별설명":"공용","상품명":"베이직 메신저백","정가":99000,"할인율":0.3,"장바구니":"장바구니담기"},
+      {"제품코드":"PRODUCT0030","이미지":"FILA_women_messengerBag39.jpg","이미지2":"FILA_women_messengerBag40.jpg","성별설명":"공용","상품명":"데이라이트 메신저백","정가":89000,"할인율":0.34,"장바구니":"장바구니담기"}
+    ]
+  }

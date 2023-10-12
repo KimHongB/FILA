@@ -1,0 +1,406 @@
+#wrap {
+  width: 100%;
+}
+#wrap #womenall .container {
+  width: 100%;
+  max-width: 1903px;
+}
+#wrap #womenall .container .gap {
+  padding: 0 40px 100px 40px;
+}
+#wrap #womenall .container .gap .title {
+  padding: 109px 0 9px 0px;
+  display: flex;
+}
+#wrap #womenall .container .gap .title .left-box {
+  width: 100%;
+  max-width: 230px;
+  display: flex;
+}
+#wrap #womenall .container .gap .title .left-box ul {
+  width: 100%;
+  display: flex;
+}
+#wrap #womenall .container .gap .title .left-box ul li {
+  display: flex;
+}
+#wrap #womenall .container .gap .title .left-box ul li h1 {
+  margin: 0 0 0 10px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 42px;
+  color: #000;
+}
+#wrap #womenall .container .gap .title .left-box ul li h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+#wrap #womenall .container .gap .title .left-box ul li h3 img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  margin: 0 15px;
+}
+#wrap #womenall .container .gap .title .left-box ul li h2 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 42px;
+  color: #000;
+}
+#wrap #womenall .container .gap .title .center-box {
+  width: 100%;
+  display: flex;
+  margin: 0 0 0 20px;
+}
+#wrap #womenall .container .gap .title .center-box ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+#wrap #womenall .container .gap .title .center-box ul li {
+  margin: 0 0 0 65px;
+}
+#wrap #womenall .container .gap .title .center-box ul li h4 {
+  font-size: 17px;
+  color: #000;
+  line-height: 18px;
+  align-items: center;
+  cursor: pointer;
+}
+#wrap #womenall .container .gap .title .center-box ul li i {
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  padding: 0 20px 0 0;
+}
+#wrap #womenall .container .gap .title .center-box ul li i::before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 20%;
+  margin: -0.5px 0 0 0;
+  width: 8px;
+  height: 2px;
+  background: #000;
+  cursor: pointer;
+}
+#wrap #womenall .container .gap .title .center-box ul li h5 {
+  font-size: 17px;
+  color: #000;
+  line-height: 18px;
+  align-items: center;
+  margin: 0 0 0 -25px;
+  cursor: pointer;
+}
+#wrap #womenall .container .gap .title .center-box ul li:nth-child(3) {
+  margin: 0 0 0 10px;
+  color: #aaa;
+}
+#wrap #womenall .container .gap .title .center-box ul li:nth-child(2) {
+  margin: 0 0 0 30px;
+}
+#wrap #womenall .container .gap .title .right-box {
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+}
+#wrap #womenall .container .gap .title .right-box ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#wrap #womenall .container .gap .title .right-box ul li select {
+  cursor: pointer;
+  font-size: 16px;
+  justify-content: left;
+  border: 0;
+  padding: 0 20px 0 0;
+}
+#wrap #womenall .container .gap .title .right-box ul .sk {
+  margin: 0 25px 0 50px;
+}
+#wrap #womenall .container .gap .title .right-box ul .img1 {
+  margin: 0 25px 0 0;
+  cursor: pointer;
+}
+#wrap #womenall .container .gap .title .right-box ul .img2 {
+  cursor: pointer;
+}
+#wrap #womenall .container .gap .content {
+  display: flex;
+}
+#wrap #womenall .container .gap .content .category-box {
+  margin-top: 40px;
+  width: 230px;
+  padding-right: 40px;
+  position: sticky;
+  top: 40px;
+  left: 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+#wrap #womenall .container .gap .content .category-box::-webkit-scrollbar {
+  width: 3px;
+}
+#wrap #womenall .container .gap .content .category-box::-webkit-scrollbar-track {
+  background-color: #ccc;
+}
+#wrap #womenall .container .gap .content .category-box::-webkit-scrollbar-thumb {
+  background-color: #000;
+}
+#wrap #womenall .container .gap .content .category-box .category button {
+  width: 100%;
+  margin-bottom: 20px;
+  border: none;
+  background: url(../../../../../../public/img/HSM/women_all/arr_up_bk_9x6.png) no-repeat 100% 50%;
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+  text-align: left;
+  cursor: pointer;
+}
+#wrap #womenall .container .gap .content .category-box .category .category1 ul li {
+  padding: 15px 0;
+}
+#wrap #womenall .container .gap .content .category-box .category .category1 ul li a {
+  font-size: 18px;
+  font-weight: 500;
+}
+#wrap #womenall .container .gap .content .category-box .category .category2 {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #999;
+}
+#wrap #womenall .container .gap .content .category-box .category .category2 ul li {
+  padding: 10px 0;
+}
+#wrap #womenall .container .gap .content .category-box .category .category2 ul li label {
+  font-size: 16px;
+}
+#wrap #womenall .container .gap .content .category-box .category .category2 ul li label input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  position: relative;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+#wrap #womenall .container .gap .content .category-box .category .category2 ul li label input:checked {
+  border: 1px solid #333;
+}
+#wrap #womenall .container .gap .content .category-box .category .category2 ul li label input:checked::before {
+  content: "";
+  z-index: 3;
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url("../../../../../../public/img/HSM/women_all/checkbox_on_20x20.png") no-repeat 50% 50%;
+}
+#wrap #womenall .container .gap .content .category-box .category .category3 {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #999;
+}
+#wrap #womenall .container .gap .content .category-box .category .category3 ul {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  row-gap: 10px;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+#wrap #womenall .container .gap .content .category-box .category .category3 ul li {
+  width: 22px;
+  height: 22px;
+}
+#wrap #womenall .container .gap .content .category-box .category .category3 ul li label input {
+  position: relative;
+  width: 22px;
+  height: 22px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  cursor: pointer;
+  background-size: cover;
+  background: url no-repeat 50% 50%;
+}
+#wrap #womenall .container .gap .content .category-box .category .category3 ul li label input#BEIGE {
+  background-image: url("../../../../../../public/img/HSM/women_all/BEIGE.png");
+}
+#wrap #womenall .container .gap .content .category-box .category .category3 ul li label input#BLACK {
+  background-image: url("../../../../../../public/img/HSM/women_all/BLACK.png");
+}
+#wrap #womenall .container .gap .content .category-box .category .category3 ul li label input#BLUE {
+  background-image: url("../../../../../../public/img/HSM/women_all/BLUE.png");
+}
+#wrap #womenall .container .gap .content .category-box .category .category3 ul li label input#GREEN {
+  background-image: url("../../../../../../public/img/HSM/women_all/GREEN.png");
+}
+#wrap #womenall .container .gap .content .category-box .category .category3 ul li label input#GREY {
+  background-image: url("../../../../../../public/img/HSM/women_all/GREY.png");
+}
+#wrap #womenall .container .gap .content .category-box .category .category3 ul li label input#PINK {
+  background-image: url("../../../../../../public/img/HSM/women_all/PINK.png");
+}
+#wrap #womenall .container .gap .content .category-box .category .category3 ul li label input#RED {
+  background-image: url("../../../../../../public/img/HSM/women_all/RED.png");
+}
+#wrap #womenall .container .gap .content .category-box .category .category3 ul li label input#WHITE {
+  background-image: url("../../../../../../public/img/HSM/women_all/WHITE.png");
+}
+#wrap #womenall .container .gap .content .category-box .category .category3 ul li label input#YELLOW {
+  background-image: url("../../../../../../public/img/HSM/women_all/YELLOW.png");
+}
+#wrap #womenall .container .gap .content .category-box .category .category3 ul li label input#ORANGE {
+  background-image: url("../../../../../../public/img/HSM/women_all/ORANGE.png");
+}
+#wrap #womenall .container .gap .content .category-box .category .category3 ul li label input#MIX {
+  background-image: url("../../../../../../public/img/HSM/women_all/MIX.png");
+}
+#wrap #womenall .container .gap .content .category-box .category .category3 ul li label input#NAVY {
+  background-image: url("../../../../../../public/img/HSM/women_all/NAVY.png");
+}
+#wrap #womenall .container .gap .content .category-box .category .category3 ul li label input#NEON {
+  background-image: url("../../../../../../public/img/HSM/women_all/NEON.png");
+}
+#wrap #womenall .container .gap .content .category-box .category .category3 ul li label input:checked::before {
+  content: "";
+  z-index: 3;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url("../../../../../../public/img/HSM/women_all/ico_check_wt_12x8.png") no-repeat 50% 50%;
+}
+#wrap #womenall .container .gap .content .category-box .category .category4 {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #999;
+}
+#wrap #womenall .container .gap .content .category-box .category .category4 ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 10px;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+#wrap #womenall .container .gap .content .category-box .category .category4 ul li label {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 43px;
+  height: 50px;
+}
+#wrap #womenall .container .gap .content .category-box .category .category4 ul li label input {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  cursor: pointer;
+}
+#wrap #womenall .container .gap .content .category-box .category .category4 ul li label input:checked {
+  border-color: #333;
+}
+#wrap #womenall .container .gap .content .category-box .category .category4 ul li label span {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+}
+#wrap #womenall .container .gap .content .category-box .category .category5 {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #999;
+}
+#wrap #womenall .container .gap .content .category-box .category .category5 ul li {
+  padding: 10px 0;
+}
+#wrap #womenall .container .gap .content .category-box .category .category5 ul li label {
+  font-size: 16px;
+}
+#wrap #womenall .container .gap .content .category-box .category .category5 ul li label input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  position: relative;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+#wrap #womenall .container .gap .content .category-box .category .category5 ul li label input:checked {
+  border: 1px solid #333;
+}
+#wrap #womenall .container .gap .content .category-box .category .category5 ul li label input:checked::before {
+  content: "";
+  z-index: 3;
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url("../../../../../../public/img/HSM/women_all/checkbox_on_20x20.png") no-repeat 50% 50%;
+}
+#wrap #womenall .container .gap .content .category-box .category .category6 {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #999;
+}
+#wrap #womenall .container .gap .content .category-box .category .category6 ul li {
+  padding: 10px 0;
+}
+#wrap #womenall .container .gap .content .category-box .category .category6 ul li label {
+  font-size: 16px;
+}
+#wrap #womenall .container .gap .content .category-box .category .category6 ul li label input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  position: relative;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+#wrap #womenall .container .gap .content .category-box .category .category6 ul li label input:checked {
+  border: 1px solid #333;
+}
+#wrap #womenall .container .gap .content .category-box .category .category6 ul li label input:checked::before {
+  content: "";
+  z-index: 3;
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url("../../../../../../public/img/HSM/women_all/checkbox_on_20x20.png") no-repeat 50% 50%;
+}
+#wrap #womenall .container .gap .content .right-main-th3 {
+  width: 100%;
+  margin: 0;
+}
